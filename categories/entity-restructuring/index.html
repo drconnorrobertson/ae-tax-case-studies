@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entity Restructuring Case Studies | AE Tax Advisors</title>
+    <meta name="description" content="Explore 84 entity restructuring case studies from AE Tax Advisors. See how businesses saved an average of 14% on their effective tax rate through strategic entity elections, conversions, and multi-entity structuring.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: #1a1a2e;
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .navbar-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 68px;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #fff;
+            letter-spacing: -0.02em;
+        }
+
+        .navbar-brand span {
+            color: #e94560;
+        }
+
+        .navbar-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .navbar-links a {
+            color: #ccc;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .navbar-links a:hover {
+            color: #fff;
+        }
+
+        .navbar-links .cta-link {
+            background: #e94560;
+            color: #fff;
+            padding: 0.5rem 1.25rem;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .navbar-links .cta-link:hover {
+            background: #d63851;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.25rem 2rem;
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        .breadcrumb a {
+            color: #e94560;
+            font-weight: 500;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb .separator {
+            margin: 0 0.5rem;
+            color: #bbb;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+            padding: 4rem 2rem 3rem;
+            color: #fff;
+        }
+
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(233, 69, 96, 0.15);
+            border: 1px solid rgba(233, 69, 96, 0.3);
+            color: #e94560;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 0.35rem 1rem;
+            border-radius: 20px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2.75rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 1.25rem;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 720px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.7;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #e94560;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.65);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-top: 0.25rem;
+        }
+
+        /* Cards Grid */
+        .cards-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem 4rem;
+        }
+
+        .cards-section-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .cards-section-header h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            letter-spacing: -0.02em;
+        }
+
+        .cards-section-header p {
+            color: #666;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .case-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.75rem;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eee;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .case-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .industry-tag {
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            background: #eef2ff;
+            color: #4338ca;
+        }
+
+        .industry-tag.medical { background: #ecfdf5; color: #047857; }
+        .industry-tag.legal { background: #fef3c7; color: #92400e; }
+        .industry-tag.tech { background: #ede9fe; color: #6d28d9; }
+        .industry-tag.restaurant { background: #fef2f2; color: #b91c1c; }
+        .industry-tag.consulting { background: #e0f2fe; color: #0369a1; }
+        .industry-tag.dental { background: #f0fdf4; color: #15803d; }
+        .industry-tag.construction { background: #fff7ed; color: #c2410c; }
+        .industry-tag.realestate { background: #f5f3ff; color: #7c3aed; }
+        .industry-tag.veterinary { background: #fdf4ff; color: #a21caf; }
+        .industry-tag.chiropractic { background: #ecfeff; color: #0891b2; }
+        .industry-tag.pharmacy { background: #fefce8; color: #a16207; }
+        .industry-tag.engineering { background: #f0f9ff; color: #0284c7; }
+        .industry-tag.architecture { background: #faf5ff; color: #9333ea; }
+        .industry-tag.marketing { background: #fff1f2; color: #e11d48; }
+        .industry-tag.fitness { background: #f0fdfa; color: #0d9488; }
+
+        .card-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.01em;
+        }
+
+        .card-description {
+            font-size: 0.88rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1.25rem;
+            flex-grow: 1;
+        }
+
+        .card-metrics {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding: 0.85rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .metric {
+            flex: 1;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #e94560;
+        }
+
+        .metric-label {
+            font-size: 0.7rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-top: 0.15rem;
+        }
+
+        .card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .strategy-tag {
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: #666;
+            background: #f0f0f0;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .cta-inner {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .cta-section p {
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #e94560;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 0.85rem 2rem;
+            border-radius: 8px;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .cta-button:hover {
+            background: #d63851;
+            transform: translateY(-1px);
+        }
+
+        /* Footer */
+        .footer {
+            background: #111;
+            color: #999;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        .footer-brand {
+            font-weight: 700;
+            color: #fff;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand span {
+            color: #e94560;
+        }
+
+        .footer a {
+            color: #e94560;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar-links {
+                gap: 1rem;
+                font-size: 0.8rem;
+            }
+
+            .hero h1 {
+                font-size: 1.85rem;
+            }
+
+            .hero-description {
+                font-size: 0.95rem;
+            }
+
+            .stats-bar {
+                gap: 1.5rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Entity Restructuring Case Studies",
+        "description": "84 entity restructuring case studies from AE Tax Advisors demonstrating strategic entity elections, conversions, and multi-entity structuring for business tax optimization.",
+        "url": "https://aetaxadvisors.com/case-studies/categories/entity-restructuring/",
+        "numberOfItems": 84,
+        "provider": {
+            "@type": "Organization",
+            "name": "AE Tax Advisors",
+            "url": "https://aetaxadvisors.com"
+        },
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://aetaxadvisors.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Categories",
+                    "item": "https://aetaxadvisors.com/case-studies/categories/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Entity Restructuring",
+                    "item": "https://aetaxadvisors.com/case-studies/categories/entity-restructuring/"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AE Tax Advisors",
+        "url": "https://aetaxadvisors.com",
+        "description": "Strategic tax advisory firm specializing in entity restructuring, cost segregation, and tax optimization for business owners and real estate investors.",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Sales",
+            "url": "https://aetaxadvisors.com/contact"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="/" class="navbar-brand">AE <span>Tax Advisors</span></a>
+            <ul class="navbar-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/case-studies/categories/">All Categories</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="https://aetaxadvisors.com">AE Tax Advisors</a></li>
+                <li><a href="https://aetaxadvisors.com/contact" class="cta-link">Free Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a>
+        <span class="separator">&rsaquo;</span>
+        <a href="/case-studies/categories/">Categories</a>
+        <span class="separator">&rsaquo;</span>
+        <span>Entity Restructuring</span>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-badge">Category Overview</div>
+            <h1>Entity Restructuring Case Studies</h1>
+            <p class="hero-description">
+                Our team has completed 84 entity restructuring engagements for business owners across a wide range of industries. Each study below illustrates how a targeted shift in entity classification, ownership structure, or multi-entity design produced measurable federal and state tax savings. These outcomes reflect the real results our clients have achieved through careful analysis and strategic execution.
+            </p>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-value">84</div>
+                    <div class="stat-label">Studies Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">$9.2M</div>
+                    <div class="stat-label">Total Entity Savings</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">14%</div>
+                    <div class="stat-label">Avg. Rate Reduction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Cards -->
+    <section class="cards-section">
+        <div class="cards-section-header">
+            <h2>Featured Entity Restructuring Studies</h2>
+            <p>Browse 25 representative engagements from our portfolio of 84 completed entity restructuring projects.</p>
+        </div>
+
+        <div class="cards-grid">
+
+            <!-- Card 1 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag medical">Medical</span>
+                </div>
+                <h3 class="card-title">Medical Practice S-Corp to C-Corp Conversion</h3>
+                <p class="card-description">
+                    A multi-physician orthopedic group converted from S-Corp to C-Corp status, allowing the practice to retain earnings at the 21% corporate rate and fund equipment acquisitions without triggering pass-through income. The restructuring also enabled a qualified fringe benefit plan that reduced overall compensation costs.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$287K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$3.4M</div>
+                        <div class="metric-label">Practice Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">C-Corp Conversion</span>
+                    <span class="strategy-tag">Fringe Benefits</span>
+                    <span class="strategy-tag">Retained Earnings</span>
+                    <span class="strategy-tag">Payroll Restructuring</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag tech">Tech</span>
+                </div>
+                <h3 class="card-title">Tech Startup Entity Election Optimization</h3>
+                <p class="card-description">
+                    A SaaS company with rapid revenue growth elected S-Corp status to reduce self-employment tax liability on the founders' income. Reasonable compensation analysis established defensible salary levels while distributing excess profits free of payroll taxes.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$142K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$1.8M</div>
+                        <div class="metric-label">Gross Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Reasonable Compensation</span>
+                    <span class="strategy-tag">Self-Employment Tax</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag legal">Legal</span>
+                </div>
+                <h3 class="card-title">Law Firm Multi-Entity Restructuring</h3>
+                <p class="card-description">
+                    A 12-attorney litigation firm separated its practice operations from its real estate holdings and administrative services. The three-entity structure reduced pass-through income concentration and enabled intercompany lease arrangements that shifted income to lower-taxed entities.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$198K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$5.1M</div>
+                        <div class="metric-label">Firm Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Multi-Entity Structuring</span>
+                    <span class="strategy-tag">Holding Company Formation</span>
+                    <span class="strategy-tag">Intercompany Leasing</span>
+                    <span class="strategy-tag">Income Splitting</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag restaurant">Restaurant</span>
+                </div>
+                <h3 class="card-title">Restaurant Group Holding Company Formation</h3>
+                <p class="card-description">
+                    A family-owned restaurant group operating four locations consolidated ownership under a holding company. Each location became a separate LLC, isolating liability and enabling location-specific entity elections based on profitability and state tax considerations.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$112K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$6.2M</div>
+                        <div class="metric-label">Combined Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Holding Company Formation</span>
+                    <span class="strategy-tag">Entity Elections</span>
+                    <span class="strategy-tag">Liability Isolation</span>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag consulting">Consulting</span>
+                </div>
+                <h3 class="card-title">Management Consulting S-Corp Election</h3>
+                <p class="card-description">
+                    A solo management consultant generating over $800K annually elected S-Corp treatment to establish reasonable compensation and redirect excess profits as distributions. The strategy eliminated approximately $36K in annual self-employment taxes while maintaining full compliance with IRS guidelines.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$89K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$840K</div>
+                        <div class="metric-label">Net Income</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Reasonable Compensation</span>
+                    <span class="strategy-tag">Distribution Planning</span>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag dental">Dental</span>
+                </div>
+                <h3 class="card-title">Dental Group Practice C-Corp Conversion</h3>
+                <p class="card-description">
+                    A three-location dental practice converted to C-Corp status to take advantage of the flat 21% corporate rate and implement a comprehensive benefits package. The conversion allowed the practice to fund retirement plans, health reimbursement arrangements, and continuing education costs at the corporate level.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$224K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$4.5M</div>
+                        <div class="metric-label">Practice Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">C-Corp Conversion</span>
+                    <span class="strategy-tag">Fringe Benefits</span>
+                    <span class="strategy-tag">Retirement Planning</span>
+                    <span class="strategy-tag">HRA Implementation</span>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag construction">Construction</span>
+                </div>
+                <h3 class="card-title">General Contractor Multi-Entity Strategy</h3>
+                <p class="card-description">
+                    A general contracting firm separated its construction operations, equipment holdings, and property management into three distinct entities. Equipment leasing between entities generated deductible rental income and allowed accelerated depreciation to offset high-margin project revenues.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$176K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$7.8M</div>
+                        <div class="metric-label">Gross Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Multi-Entity Structuring</span>
+                    <span class="strategy-tag">Equipment Leasing</span>
+                    <span class="strategy-tag">Accelerated Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag realestate">Real Estate</span>
+                </div>
+                <h3 class="card-title">Real Estate Portfolio Entity Segregation</h3>
+                <p class="card-description">
+                    An investor with 14 rental properties restructured from a single LLC into a series LLC with property-level subsidiaries. The redesign isolated liability per asset and enabled tailored entity elections to maximize depreciation benefits and qualified business income deductions.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$203K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$2.9M</div>
+                        <div class="metric-label">Portfolio Value</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Series LLC</span>
+                    <span class="strategy-tag">Entity Segregation</span>
+                    <span class="strategy-tag">QBI Optimization</span>
+                    <span class="strategy-tag">Liability Isolation</span>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag veterinary">Veterinary</span>
+                </div>
+                <h3 class="card-title">Veterinary Clinic Payroll Restructuring</h3>
+                <p class="card-description">
+                    A growing veterinary hospital restructured its ownership and payroll framework after electing S-Corp status. The new structure set reasonable compensation for the two founding veterinarians, converted excess earnings to distributions, and introduced a management company for administrative services.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$97K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$2.1M</div>
+                        <div class="metric-label">Clinic Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Payroll Restructuring</span>
+                    <span class="strategy-tag">Management Company</span>
+                </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag chiropractic">Chiropractic</span>
+                </div>
+                <h3 class="card-title">Chiropractic Practice Entity Conversion</h3>
+                <p class="card-description">
+                    A solo chiropractor operating as a sole proprietorship formed an S-Corp to reduce self-employment tax exposure. The conversion also enabled a solo 401(k) with employer contributions at the corporate level, increasing total tax-advantaged retirement savings by over $40K annually.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$54K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$520K</div>
+                        <div class="metric-label">Net Income</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Solo 401(k)</span>
+                    <span class="strategy-tag">Self-Employment Tax</span>
+                </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag pharmacy">Pharmacy</span>
+                </div>
+                <h3 class="card-title">Independent Pharmacy C-Corp Strategy</h3>
+                <p class="card-description">
+                    An independent pharmacy with high annual revenues converted from S-Corp to C-Corp to access the flat 21% rate on retained earnings. The restructuring funded inventory expansion, a second location build-out, and a defined benefit pension plan for the owner pharmacist.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$165K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$8.3M</div>
+                        <div class="metric-label">Pharmacy Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">C-Corp Conversion</span>
+                    <span class="strategy-tag">Defined Benefit Plan</span>
+                    <span class="strategy-tag">Retained Earnings</span>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag engineering">Engineering</span>
+                </div>
+                <h3 class="card-title">Engineering Firm Management Company Split</h3>
+                <p class="card-description">
+                    A civil engineering firm with 30 employees created a separate management company to handle administrative, HR, and back-office functions. Management fees paid by the operating entity to the management company shifted income into a lower-taxed entity and optimized the QBI deduction.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$131K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$4.9M</div>
+                        <div class="metric-label">Firm Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Management Company</span>
+                    <span class="strategy-tag">Income Shifting</span>
+                    <span class="strategy-tag">QBI Optimization</span>
+                    <span class="strategy-tag">Payroll Restructuring</span>
+                </div>
+            </div>
+
+            <!-- Card 13 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag architecture">Architecture</span>
+                </div>
+                <h3 class="card-title">Architecture Studio Partnership Conversion</h3>
+                <p class="card-description">
+                    A two-partner architecture studio converted from a general partnership to an S-Corp. The conversion eliminated self-employment tax on distributed profits and introduced a reasonable compensation framework backed by industry salary benchmarking data.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$78K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$1.6M</div>
+                        <div class="metric-label">Firm Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Reasonable Compensation</span>
+                    <span class="strategy-tag">Partnership Conversion</span>
+                </div>
+            </div>
+
+            <!-- Card 14 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag marketing">Marketing Agency</span>
+                </div>
+                <h3 class="card-title">Digital Agency Holding Company Formation</h3>
+                <p class="card-description">
+                    A digital marketing agency with three service lines formed a holding company to consolidate ownership and allocate shared costs. Each service line operated as a separate entity with its own entity election, enabling the founders to optimize income allocation and state tax exposure across jurisdictions.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$104K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$3.7M</div>
+                        <div class="metric-label">Agency Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Holding Company Formation</span>
+                    <span class="strategy-tag">Multi-Entity Structuring</span>
+                    <span class="strategy-tag">State Tax Optimization</span>
+                </div>
+            </div>
+
+            <!-- Card 15 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag fitness">Fitness</span>
+                </div>
+                <h3 class="card-title">Gym Franchise Owner S-Corp Election</h3>
+                <p class="card-description">
+                    A multi-location gym franchise owner restructured from sole proprietorship status to an S-Corp for each location. The elections reduced self-employment tax across all locations and enabled coordinated retirement plan contributions through a centralized payroll structure.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$67K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$2.3M</div>
+                        <div class="metric-label">Combined Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Franchise Structuring</span>
+                    <span class="strategy-tag">Payroll Restructuring</span>
+                </div>
+            </div>
+
+            <!-- Card 16 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag medical">Medical</span>
+                </div>
+                <h3 class="card-title">Dermatology Practice Management Company</h3>
+                <p class="card-description">
+                    A dermatology practice with a medical spa division created a separate management entity to bill for non-clinical administrative services. This arrangement shifted a portion of practice income to a management company taxed at a lower effective rate, while maintaining clean compliance with state medical practice acts.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$156K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$3.9M</div>
+                        <div class="metric-label">Practice Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Management Company</span>
+                    <span class="strategy-tag">Income Shifting</span>
+                    <span class="strategy-tag">Medical Practice Compliance</span>
+                </div>
+            </div>
+
+            <!-- Card 17 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag tech">Tech</span>
+                </div>
+                <h3 class="card-title">Software Company C-Corp Retained Earnings</h3>
+                <p class="card-description">
+                    A software development firm with high annual profits converted to C-Corp status to retain earnings at the 21% corporate rate. The retained capital funded R&D expansion and a strategic acquisition without distributing income to the founders at individual rates.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$243K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$5.6M</div>
+                        <div class="metric-label">Company Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">C-Corp Conversion</span>
+                    <span class="strategy-tag">Retained Earnings</span>
+                    <span class="strategy-tag">R&D Tax Credits</span>
+                    <span class="strategy-tag">Growth Structuring</span>
+                </div>
+            </div>
+
+            <!-- Card 18 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag construction">Construction</span>
+                </div>
+                <h3 class="card-title">Plumbing Company S-Corp Payroll Strategy</h3>
+                <p class="card-description">
+                    A plumbing contractor generating significant net income elected S-Corp status and implemented a reasonable compensation plan. The restructuring reduced FICA exposure on excess profits and enabled the owner to fund a SEP-IRA with employer contributions from the corporate entity.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$46K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$680K</div>
+                        <div class="metric-label">Net Income</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Reasonable Compensation</span>
+                    <span class="strategy-tag">SEP-IRA Funding</span>
+                </div>
+            </div>
+
+            <!-- Card 19 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag legal">Legal</span>
+                </div>
+                <h3 class="card-title">Solo Attorney Practice S-Corp Conversion</h3>
+                <p class="card-description">
+                    A solo attorney with a thriving personal injury practice converted from a single-member LLC to an S-Corp. The conversion reduced self-employment tax by establishing a defensible salary and distributing remaining profits as non-wage income.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$72K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$1.2M</div>
+                        <div class="metric-label">Practice Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Self-Employment Tax</span>
+                    <span class="strategy-tag">Distribution Planning</span>
+                </div>
+            </div>
+
+            <!-- Card 20 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag realestate">Real Estate</span>
+                </div>
+                <h3 class="card-title">Property Management Company Restructuring</h3>
+                <p class="card-description">
+                    A property management firm overseeing 200 rental units separated its management operations from its owned real estate holdings. The dual-entity structure enabled the management company to elect S-Corp treatment while the holding entity remained a partnership for pass-through depreciation benefits.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$138K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$3.2M</div>
+                        <div class="metric-label">Management Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Multi-Entity Structuring</span>
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Pass-Through Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 21 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag consulting">Consulting</span>
+                </div>
+                <h3 class="card-title">IT Consulting Firm Dual Entity Design</h3>
+                <p class="card-description">
+                    An IT consulting firm created a separate staffing entity to manage contract placements. The staffing entity operated as a C-Corp to retain earnings for recruiter bonuses and benefits, while the consulting entity remained an S-Corp to pass through project-based income efficiently.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$119K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$4.1M</div>
+                        <div class="metric-label">Combined Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Multi-Entity Structuring</span>
+                    <span class="strategy-tag">C-Corp Conversion</span>
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Staffing Entity</span>
+                </div>
+            </div>
+
+            <!-- Card 22 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag dental">Dental</span>
+                </div>
+                <h3 class="card-title">Pediatric Dental Practice Entity Split</h3>
+                <p class="card-description">
+                    A pediatric dental practice separated its clinical operations from its real estate and equipment assets. The real estate entity leased the office space back to the practice at fair market rates, creating deductible rental payments and building equity in a separate, asset-protected entity.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$83K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$1.9M</div>
+                        <div class="metric-label">Practice Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Entity Segregation</span>
+                    <span class="strategy-tag">Intercompany Leasing</span>
+                    <span class="strategy-tag">Asset Protection</span>
+                </div>
+            </div>
+
+            <!-- Card 23 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag pharmacy">Pharmacy</span>
+                </div>
+                <h3 class="card-title">Compounding Pharmacy Multi-State Entity Plan</h3>
+                <p class="card-description">
+                    A compounding pharmacy serving patients across three states restructured into state-specific entities to minimize aggregate state tax obligations. Each entity elected the most favorable entity classification for its respective jurisdiction, reducing the total state tax burden by over 40%.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$91K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$5.4M</div>
+                        <div class="metric-label">Pharmacy Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Multi-State Structuring</span>
+                    <span class="strategy-tag">Entity Elections</span>
+                    <span class="strategy-tag">State Tax Optimization</span>
+                </div>
+            </div>
+
+            <!-- Card 24 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag veterinary">Veterinary</span>
+                </div>
+                <h3 class="card-title">Veterinary Emergency Clinic C-Corp Conversion</h3>
+                <p class="card-description">
+                    A 24-hour veterinary emergency clinic converted to C-Corp status to retain earnings for facility expansion and equipment upgrades. The flat 21% rate on retained profits enabled the clinic to self-fund a $1.2M renovation without triggering pass-through income for the three partner veterinarians.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$189K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$4.7M</div>
+                        <div class="metric-label">Clinic Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">C-Corp Conversion</span>
+                    <span class="strategy-tag">Retained Earnings</span>
+                    <span class="strategy-tag">Capital Reinvestment</span>
+                    <span class="strategy-tag">Fringe Benefits</span>
+                </div>
+            </div>
+
+            <!-- Card 25 -->
+            <div class="case-card">
+                <div class="card-header">
+                    <span class="industry-tag fitness">Fitness</span>
+                </div>
+                <h3 class="card-title">Personal Training Studio Entity Optimization</h3>
+                <p class="card-description">
+                    A personal training studio with group fitness and nutrition coaching divisions restructured into two LLCs under a holding company. The fitness operations entity elected S-Corp status while the nutrition coaching entity remained a disregarded entity, optimizing self-employment tax treatment based on revenue mix.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <div class="metric-value">$38K</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$490K</div>
+                        <div class="metric-label">Combined Revenue</div>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Holding Company Formation</span>
+                    <span class="strategy-tag">S-Corp Election</span>
+                    <span class="strategy-tag">Revenue Segmentation</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-inner">
+            <h2>Ready to Optimize Your Entity Structure?</h2>
+            <p>
+                The right entity structure can reduce your effective tax rate by 10% to 20% or more. Our team analyzes your current setup, models alternative structures, and implements the conversion that delivers the greatest long-term savings. Schedule a free consultation to get started.
+            </p>
+            <a href="https://aetaxadvisors.com/contact" class="cta-button">Schedule Your Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">AE <span>Tax Advisors</span></div>
+        <p>Strategic tax advisory for business owners and real estate investors.</p>
+        <p style="margin-top: 1rem;">
+            <a href="https://aetaxadvisors.com">aetaxadvisors.com</a>
+        </p>
+        <p style="margin-top: 1.5rem; font-size: 0.78rem; color: #666;">
+            &copy; 2024 AE Tax Advisors. All rights reserved. Content by AE Tax Advisors Team.
+        </p>
+    </footer>
+
+</body>
+</html>
