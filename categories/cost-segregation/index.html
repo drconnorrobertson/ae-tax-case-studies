@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost Segregation Case Studies | AE Tax Advisors</title>
+    <meta name="description" content="Explore 156 cost segregation case studies from AE Tax Advisors. See how our clients have captured over $18.7M in accelerated depreciation across STR, multi-family, commercial, and other property types.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: #1a1a2e;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar-brand {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+
+        .navbar-brand span {
+            color: #e94560;
+        }
+
+        .navbar-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .navbar-links a {
+            color: #c4c4d4;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .navbar-links a:hover {
+            color: #ffffff;
+        }
+
+        .navbar-links .cta-link {
+            background: #e94560;
+            color: #ffffff;
+            padding: 0.5rem 1.2rem;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.2s ease;
+        }
+
+        .navbar-links .cta-link:hover {
+            background: #d63851;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        .breadcrumb a {
+            color: #e94560;
+            font-weight: 500;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            margin: 0 0.4rem;
+            color: #aaa;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .hero-inner {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 1.2rem;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #c4c4d4;
+            max-width: 720px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.7;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #e94560;
+            display: block;
+            line-height: 1.2;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #a0a0b8;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.3rem;
+        }
+
+        /* Cards Grid */
+        .cards-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem 4rem;
+        }
+
+        .cards-section-header {
+            margin-bottom: 2rem;
+        }
+
+        .cards-section-header h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+
+        .cards-section-header p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 1.8rem;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.06);
+        }
+
+        .card-tag {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            width: fit-content;
+        }
+
+        .tag-str { background: #fef3e2; color: #c77a10; }
+        .tag-multi-family { background: #e8f4fd; color: #1a73a7; }
+        .tag-commercial { background: #f0e6f6; color: #7b3fa0; }
+        .tag-hotel { background: #fde8e8; color: #c0392b; }
+        .tag-self-storage { background: #e6f9f0; color: #1e8449; }
+        .tag-mobile-home { background: #fff4e6; color: #b35900; }
+        .tag-mixed-use { background: #eef2ff; color: #4338ca; }
+        .tag-office { background: #f1f5f9; color: #475569; }
+        .tag-retail { background: #fce7f3; color: #be185d; }
+        .tag-industrial { background: #ecfdf5; color: #047857; }
+        .tag-assisted-living { background: #f5f3ff; color: #6d28d9; }
+        .tag-medical { background: #eff6ff; color: #1d4ed8; }
+        .tag-restaurant { background: #fef2f2; color: #991b1b; }
+
+        .card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 0.7rem;
+            line-height: 1.35;
+        }
+
+        .card-description {
+            font-size: 0.88rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1.2rem;
+            flex-grow: 1;
+        }
+
+        .card-metrics {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            padding: 0.8rem 0;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .metric {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .metric-value {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #e94560;
+        }
+
+        .metric-label {
+            font-size: 0.72rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            font-weight: 500;
+        }
+
+        .card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-top: 0.8rem;
+        }
+
+        .strategy-tag {
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: #5a6472;
+            background: #f1f3f5;
+            padding: 0.25rem 0.6rem;
+            border-radius: 20px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+            padding: 5rem 2rem;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .cta-inner {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .cta-section h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .cta-section p {
+            font-size: 1.05rem;
+            color: #c4c4d4;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #e94560;
+            color: #ffffff;
+            padding: 0.9rem 2.4rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 700;
+            transition: background 0.2s ease, transform 0.15s ease;
+        }
+
+        .cta-button:hover {
+            background: #d63851;
+            transform: translateY(-1px);
+        }
+
+        /* Footer */
+        .footer {
+            background: #111126;
+            color: #8888a0;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-brand {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand span {
+            color: #e94560;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #8888a0;
+            font-size: 0.85rem;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: #e94560;
+        }
+
+        .footer-copyright {
+            font-size: 0.8rem;
+            margin-top: 1.5rem;
+            color: #5a5a70;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0 1rem;
+            }
+
+            .navbar-links {
+                gap: 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .stats-bar {
+                gap: 1.5rem;
+            }
+
+            .stat-number {
+                font-size: 1.5rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-section h2 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">AE <span>Tax</span> Advisors</a>
+        <ul class="navbar-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/case-studies/categories/">All Categories</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="https://aetaxadvisors.com">AE Tax Advisors</a></li>
+            <li><a href="https://aetaxadvisors.com/contact" class="cta-link">Free Consultation</a></li>
+        </ul>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a>
+        <span>></span>
+        <a href="/case-studies/categories/">Categories</a>
+        <span>></span>
+        Cost Segregation
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Cost Segregation Case Studies</h1>
+            <p>
+                Our team has completed 156 cost segregation studies across every major property class, from short-term
+                rentals and multi-family complexes to commercial buildings and hospitality properties. Each study
+                reclassifies building components into shorter recovery periods, unlocking accelerated depreciation
+                that reduces taxable income in year one and beyond. Browse real client results below to see how
+                cost segregation delivers measurable savings for real estate investors nationwide.
+            </p>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-number">156</span>
+                    <span class="stat-label">Studies Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">$18.7M</span>
+                    <span class="stat-label">Total Depreciation Captured</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">35%</span>
+                    <span class="stat-label">Average Year-1 Recovery</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Cards -->
+    <section class="cards-section">
+        <div class="cards-section-header">
+            <h2>Client Results</h2>
+            <p>Each case study represents a real engagement where cost segregation created significant tax savings.</p>
+        </div>
+
+        <div class="cards-grid">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <span class="card-tag tag-str">Short-Term Rental</span>
+                <h3>6-Unit STR Portfolio in Nashville</h3>
+                <p class="card-description">
+                    An investor with six Airbnb properties across East Nashville and the Gulch needed a comprehensive
+                    study to maximize first-year deductions. Our analysis reclassified 38% of the total basis into
+                    5-year and 15-year property classes.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$247,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$2.4M</span>
+                        <span class="metric-label">Portfolio Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <span class="card-tag tag-multi-family">Multi-Family</span>
+                <h3>12-Unit Apartment Complex in Phoenix</h3>
+                <p class="card-description">
+                    A buy-and-hold investor acquired a 1990s-era apartment building and wanted to offset rental
+                    income in the acquisition year. We identified substantial land improvements and personal
+                    property components eligible for shorter recovery periods.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$183,500</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$1.8M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">QIP Identification</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <span class="card-tag tag-commercial">Commercial</span>
+                <h3>Class A Office Building in Austin</h3>
+                <p class="card-description">
+                    This 45,000 square foot commercial office building was acquired as part of a 1031 exchange.
+                    Our study separated HVAC systems, electrical infrastructure, and tenant improvements into
+                    accelerated categories, producing significant year-one deductions.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$412,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$6.2M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">QIP Identification</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Form 3115</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <span class="card-tag tag-hotel">Hotel</span>
+                <h3>Boutique Hotel in Savannah</h3>
+                <p class="card-description">
+                    A 32-room boutique hotel in the historic district contained significant personal property
+                    including furniture, fixtures, and decorative elements. Our detailed component-level analysis
+                    captured items that traditional depreciation schedules overlook.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$378,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$4.9M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <span class="card-tag tag-self-storage">Self-Storage</span>
+                <h3>120-Unit Self-Storage Facility in Tampa</h3>
+                <p class="card-description">
+                    A newly constructed climate-controlled storage facility offered excellent cost segregation
+                    opportunities. Specialized HVAC, security systems, and paving were all reclassified into
+                    5-year and 15-year categories.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$156,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$2.1M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+                <span class="card-tag tag-mobile-home">Mobile Home Park</span>
+                <h3>85-Pad Mobile Home Park in Tulsa</h3>
+                <p class="card-description">
+                    Mobile home parks contain a high percentage of land improvements relative to structures,
+                    making them ideal for cost segregation. Roads, utilities, and site improvements accounted
+                    for over 40% of the depreciable basis in this property.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$198,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$2.7M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Lookback Study</span>
+                    <span class="strategy-tag">Form 3115</span>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="card">
+                <span class="card-tag tag-mixed-use">Mixed-Use</span>
+                <h3>Mixed-Use Building in Denver</h3>
+                <p class="card-description">
+                    A three-story building with ground-floor retail and eight residential units above required
+                    a dual-use analysis. We allocated components between commercial and residential recovery
+                    periods to optimize the overall depreciation schedule.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$224,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$3.5M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">QIP Identification</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="card">
+                <span class="card-tag tag-str">Short-Term Rental</span>
+                <h3>Luxury Cabin Retreat in Gatlinburg</h3>
+                <p class="card-description">
+                    This high-end vacation rental featured custom finishes, a hot tub, game room equipment,
+                    and outdoor entertainment areas. Personal property reclassification captured furnishings
+                    and appliances that are commonly missed in standard depreciation.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$89,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$780K</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="card">
+                <span class="card-tag tag-office">Office</span>
+                <h3>Medical Office Complex in Charlotte</h3>
+                <p class="card-description">
+                    A two-building medical office campus with specialized buildouts for dental and orthopedic
+                    tenants. Specialized mechanical systems, exam room cabinetry, and ADA improvements were
+                    reclassified into shorter-life categories.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$295,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$4.1M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">QIP Identification</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="card">
+                <span class="card-tag tag-retail">Retail</span>
+                <h3>Strip Mall Renovation in Atlanta</h3>
+                <p class="card-description">
+                    An investor completed a full renovation of a 1980s-era retail center and needed to capture
+                    the qualified improvement property deductions. Our study identified over $1.2M in QIP
+                    eligible for bonus depreciation treatment.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$341,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$5.5M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">QIP Identification</span>
+                    <span class="strategy-tag">Form 3115</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Lookback Study</span>
+                </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="card">
+                <span class="card-tag tag-industrial">Industrial</span>
+                <h3>60,000 SF Warehouse in Indianapolis</h3>
+                <p class="card-description">
+                    An industrial warehouse with specialized loading docks, heavy electrical service, and
+                    reinforced flooring. Overhead cranes, dock levelers, and site paving were reclassified
+                    into accelerated categories, producing strong first-year deductions.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$267,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$3.8M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="card">
+                <span class="card-tag tag-assisted-living">Assisted Living</span>
+                <h3>48-Bed Assisted Living Facility in Raleigh</h3>
+                <p class="card-description">
+                    Assisted living facilities contain extensive personal property including nurse call systems,
+                    kitchen equipment, and specialized fixtures. Our study reclassified 42% of the depreciable
+                    basis into 5-year and 7-year categories.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$489,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$7.2M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">QIP Identification</span>
+                </div>
+            </div>
+
+            <!-- Card 13 -->
+            <div class="card">
+                <span class="card-tag tag-multi-family">Multi-Family</span>
+                <h3>32-Unit Garden Apartments in San Antonio</h3>
+                <p class="card-description">
+                    A garden-style apartment community with extensive landscaping, parking areas, and common
+                    amenities. Land improvements including sidewalks, drainage, and outdoor lighting were
+                    reclassified from 27.5-year to 15-year property.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$215,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$3.2M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                </div>
+            </div>
+
+            <!-- Card 14 -->
+            <div class="card">
+                <span class="card-tag tag-str">Short-Term Rental</span>
+                <h3>Beachfront Condo Portfolio in Destin</h3>
+                <p class="card-description">
+                    Three Gulf-front condominiums operated as vacation rentals, each with premium furnishings
+                    and upgraded kitchens. We conducted a detailed personal property inventory to capture
+                    all furniture, appliances, and decorative items for accelerated treatment.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$67,500</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$1.1M</span>
+                        <span class="metric-label">Portfolio Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                </div>
+            </div>
+
+            <!-- Card 15 -->
+            <div class="card">
+                <span class="card-tag tag-commercial">Commercial</span>
+                <h3>Retail Shopping Center in Columbus</h3>
+                <p class="card-description">
+                    A 90,000 square foot neighborhood shopping center with 14 tenant spaces. Our lookback
+                    study covered a property held for five years, filing Form 3115 to capture depreciation
+                    that had been missed since the original acquisition.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$587,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$12.5M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Lookback Study</span>
+                    <span class="strategy-tag">Form 3115</span>
+                    <span class="strategy-tag">QIP Identification</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                </div>
+            </div>
+
+            <!-- Card 16 -->
+            <div class="card">
+                <span class="card-tag tag-hotel">Hotel</span>
+                <h3>110-Room Select Service Hotel in Dallas</h3>
+                <p class="card-description">
+                    A recently constructed select-service hotel with a fitness center, meeting rooms, and
+                    breakfast area. FF&E items, specialty lighting, and decorative finishes accounted for
+                    a significant share of the depreciable basis in this property.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$598,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$15M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">QIP Identification</span>
+                </div>
+            </div>
+
+            <!-- Card 17 -->
+            <div class="card">
+                <span class="card-tag tag-restaurant">Restaurant</span>
+                <h3>Full-Service Restaurant in Chicago</h3>
+                <p class="card-description">
+                    A recently acquired restaurant building with a commercial kitchen, bar, and patio dining
+                    area. Kitchen equipment, walk-in coolers, exhaust systems, and decorative interior
+                    finishes were all reclassified into accelerated recovery categories.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$142,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$1.6M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">QIP Identification</span>
+                </div>
+            </div>
+
+            <!-- Card 18 -->
+            <div class="card">
+                <span class="card-tag tag-multi-family">Multi-Family</span>
+                <h3>64-Unit Townhome Community in Jacksonville</h3>
+                <p class="card-description">
+                    A large townhome-style rental community acquired through a syndication. Our engineering-based
+                    study separated site improvements, common area amenities, and unit-level components to
+                    maximize accelerated deductions for the investor group.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$445,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$8.9M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 19 -->
+            <div class="card">
+                <span class="card-tag tag-self-storage">Self-Storage</span>
+                <h3>200-Unit Storage Complex in Las Vegas</h3>
+                <p class="card-description">
+                    A multi-building storage complex featuring both climate-controlled interior units and
+                    drive-up exterior units. Site improvements, security fencing, gate systems, and paving
+                    represented a large share of the accelerated depreciation captured.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$203,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$3.4M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                </div>
+            </div>
+
+            <!-- Card 20 -->
+            <div class="card">
+                <span class="card-tag tag-medical">Medical Office</span>
+                <h3>Veterinary Clinic in Portland</h3>
+                <p class="card-description">
+                    A newly built veterinary hospital with surgical suites, imaging rooms, and specialized
+                    plumbing. Medical-grade HVAC, radiology shielding, and built-in cabinetry were segregated
+                    into shorter-life property classes for maximum first-year benefit.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$118,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$1.4M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                </div>
+            </div>
+
+            <!-- Card 21 -->
+            <div class="card">
+                <span class="card-tag tag-str">Short-Term Rental</span>
+                <h3>10-Unit VRBO Portfolio in Scottsdale</h3>
+                <p class="card-description">
+                    A portfolio of desert vacation rentals ranging from condos to single-family homes. Each
+                    property received an individual study, with poolside improvements, outdoor kitchens, and
+                    luxury furnishings captured across the portfolio.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$312,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$4.5M</span>
+                        <span class="metric-label">Portfolio Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                </div>
+            </div>
+
+            <!-- Card 22 -->
+            <div class="card">
+                <span class="card-tag tag-industrial">Industrial</span>
+                <h3>Manufacturing Plant in Memphis</h3>
+                <p class="card-description">
+                    A 100,000 square foot manufacturing facility with heavy power infrastructure, compressed
+                    air systems, and specialized flooring. Process-related mechanical systems were segregated
+                    from the building structure for accelerated treatment.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$478,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$8.3M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Lookback Study</span>
+                    <span class="strategy-tag">Form 3115</span>
+                </div>
+            </div>
+
+            <!-- Card 23 -->
+            <div class="card">
+                <span class="card-tag tag-mixed-use">Mixed-Use</span>
+                <h3>Live/Work Lofts in Minneapolis</h3>
+                <p class="card-description">
+                    A converted historic mill with 20 residential loft units and four commercial spaces on
+                    the ground floor. Historic building components required careful documentation to maintain
+                    compliance while maximizing segregated property classes.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$356,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$5.8M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">QIP Identification</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                </div>
+            </div>
+
+            <!-- Card 24 -->
+            <div class="card">
+                <span class="card-tag tag-mobile-home">Mobile Home Park</span>
+                <h3>150-Pad Community in Little Rock</h3>
+                <p class="card-description">
+                    A large manufactured housing community with park-owned homes, a clubhouse, and extensive
+                    infrastructure. Water and sewer systems, roads, and pad improvements were reclassified
+                    from real property into 15-year land improvement categories.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$274,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$4.2M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">Land Improvement Segregation</span>
+                    <span class="strategy-tag">Lookback Study</span>
+                    <span class="strategy-tag">Form 3115</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                </div>
+            </div>
+
+            <!-- Card 25 -->
+            <div class="card">
+                <span class="card-tag tag-retail">Retail</span>
+                <h3>Grocery-Anchored Center in Richmond</h3>
+                <p class="card-description">
+                    A 75,000 square foot retail center anchored by a regional grocery chain. Refrigeration
+                    systems, specialized flooring, and tenant improvement allowances were identified and
+                    reclassified to deliver substantial accelerated depreciation for the ownership group.
+                </p>
+                <div class="card-metrics">
+                    <div class="metric">
+                        <span class="metric-value">$423,000</span>
+                        <span class="metric-label">Tax Savings</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">$9.1M</span>
+                        <span class="metric-label">Property Value</span>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="strategy-tag">QIP Identification</span>
+                    <span class="strategy-tag">Component Analysis</span>
+                    <span class="strategy-tag">Bonus Depreciation</span>
+                    <span class="strategy-tag">Personal Property Reclassification</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-inner">
+            <h2>Ready to Maximize Your Depreciation?</h2>
+            <p>
+                Every commercial and investment property has hidden depreciation waiting to be captured.
+                Our team has completed over 156 cost segregation studies, delivering an average of 35%
+                first-year recovery for our clients. Schedule a free consultation to learn what your
+                property could save.
+            </p>
+            <a href="https://aetaxadvisors.com/contact" class="cta-button">Schedule a Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">AE <span>Tax</span> Advisors</div>
+        <p>Accelerated depreciation and tax strategy for real estate investors.</p>
+        <div class="footer-links">
+            <a href="https://aetaxadvisors.com">Home</a>
+            <a href="/case-studies/categories/">Case Studies</a>
+            <a href="/blog/">Blog</a>
+            <a href="https://aetaxadvisors.com/contact">Contact</a>
+        </div>
+        <p class="footer-copyright">Copyright 2024 AE Tax Advisors. All rights reserved.</p>
+    </footer>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Cost Segregation Case Studies",
+        "description": "Browse 156 cost segregation case studies from AE Tax Advisors, covering STR, multi-family, commercial, hotel, self-storage, and other property types with over $18.7M in total depreciation captured.",
+        "url": "https://aetaxadvisors.com/case-studies/categories/cost-segregation/",
+        "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": 25,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "6-Unit STR Portfolio in Nashville",
+                    "description": "Cost segregation study for a six-unit short-term rental portfolio capturing $247,000 in tax savings."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "12-Unit Apartment Complex in Phoenix",
+                    "description": "Cost segregation study for a multi-family apartment complex capturing $183,500 in tax savings."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Class A Office Building in Austin",
+                    "description": "Cost segregation study for a 45,000 SF commercial office building capturing $412,000 in tax savings."
+                }
+            ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AE Tax Advisors",
+            "url": "https://aetaxadvisors.com"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AE Tax Advisors",
+        "url": "https://aetaxadvisors.com",
+        "description": "Tax advisory firm specializing in cost segregation studies, accelerated depreciation, and tax planning for real estate investors.",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Sales",
+            "url": "https://aetaxadvisors.com/contact"
+        }
+    }
+    </script>
+
+</body>
+</html>
