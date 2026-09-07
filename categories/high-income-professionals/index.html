@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-Income Professional Case Studies | AE Tax Advisors</title>
+    <meta name="description" content="Explore 62 tax optimization case studies for high-income professionals including physicians, attorneys, surgeons, and executives. Average savings of $82K per engagement.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #2d2d2d;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: #1a1a2e;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav-brand {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-brand span {
+            color: #e94560;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #c4c4d4;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ffffff;
+        }
+
+        .nav-cta {
+            background: #e94560;
+            color: #ffffff !important;
+            padding: 0.6rem 1.4rem;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .nav-cta:hover {
+            background: #d63851;
+            transform: translateY(-1px);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+
+        .breadcrumb a {
+            color: #e94560;
+            font-weight: 500;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb .separator {
+            margin: 0 0.5rem;
+            color: #9ca3af;
+        }
+
+        .breadcrumb .current {
+            color: #374151;
+            font-weight: 600;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+            padding: 4rem 2rem 3rem;
+            color: #ffffff;
+        }
+
+        .hero-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .hero-label {
+            display: inline-block;
+            background: rgba(233, 69, 96, 0.2);
+            border: 1px solid rgba(233, 69, 96, 0.4);
+            color: #e94560;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 0.35rem 1rem;
+            border-radius: 20px;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.15;
+            letter-spacing: -0.03em;
+            margin-bottom: 1.2rem;
+            max-width: 700px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #c4c8d8;
+            max-width: 680px;
+            margin-bottom: 2rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1.4rem 2rem;
+            max-width: 720px;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-number {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #e94560;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #a0a8c0;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Section Titles */
+        .section-title {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 3rem 2rem 1.5rem;
+        }
+
+        .section-title h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            letter-spacing: -0.02em;
+        }
+
+        .section-title p {
+            font-size: 1rem;
+            color: #6b7280;
+            margin-top: 0.5rem;
+        }
+
+        /* Card Grid */
+        .card-grid {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 3rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .case-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 1.8rem;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #e8e9ed;
+        }
+
+        .case-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 8px 28px rgba(0, 0, 0, 0.06);
+        }
+
+        .card-tag {
+            display: inline-block;
+            background: rgba(233, 69, 96, 0.1);
+            color: #e94560;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 0.3rem 0.75rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+            align-self: flex-start;
+        }
+
+        .card-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.4;
+            margin-bottom: 0.6rem;
+        }
+
+        .card-description {
+            font-size: 0.88rem;
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .card-metrics {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.8rem 0;
+            border-top: 1px solid #f0f1f3;
+            border-bottom: 1px solid #f0f1f3;
+            margin-bottom: 1rem;
+        }
+
+        .metric {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+
+        .metric-value.savings {
+            color: #e94560;
+        }
+
+        .metric-label {
+            font-size: 0.7rem;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            font-weight: 500;
+        }
+
+        .strategy-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .strategy-tag {
+            background: #f0f1f5;
+            color: #4a5068;
+            font-size: 0.72rem;
+            font-weight: 500;
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+            padding: 5rem 2rem;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .cta-inner {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .cta-inner h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+        }
+
+        .cta-inner p {
+            font-size: 1.05rem;
+            color: #c4c8d8;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #e94560;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 1rem 2.4rem;
+            border-radius: 8px;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background: #d63851;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a2e;
+            color: #8a8ea0;
+            padding: 3rem 2rem;
+        }
+
+        .footer-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-brand {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .footer-brand span {
+            color: #e94560;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+
+        .footer-links a {
+            color: #8a8ea0;
+            font-size: 0.85rem;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        .footer-copy {
+            width: 100%;
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            font-size: 0.8rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0 1rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .cta-inner h2 {
+                font-size: 1.6rem;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "High-Income Professional Case Studies",
+        "description": "62 tax optimization case studies for high-income professionals including physicians, attorneys, surgeons, and executives. Average savings of $82K per engagement.",
+        "url": "https://aetaxadvisors.com/case-studies/categories/high-income-professionals/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "AE Tax Advisors",
+            "url": "https://aetaxadvisors.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://aetaxadvisors.com/logo.png"
+            }
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": 62,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Orthopedic Surgeon Entity Restructuring for Tax-Efficient Income"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Attorney Partner Compensation Optimization with Deferred Strategies"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Dentist Practice Owner Retirement and Defined Benefit Plan Design"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AE Tax Advisors",
+        "url": "https://aetaxadvisors.com",
+        "description": "Strategic tax advisory firm specializing in high-income professionals, real estate investors, and business owners.",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Sales",
+            "url": "https://aetaxadvisors.com/contact"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">AE <span>Tax</span> Advisors</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/case-studies/categories/">All Categories</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="https://aetaxadvisors.com">AE Tax Advisors</a></li>
+            <li><a href="https://aetaxadvisors.com/contact" class="nav-cta">Free Consultation</a></li>
+        </ul>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a>
+        <span class="separator">/</span>
+        <a href="/case-studies/categories/">Categories</a>
+        <span class="separator">/</span>
+        <span class="current">High-Income Professionals</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-label">Category Overview</div>
+            <h1>High-Income Professional Case Studies</h1>
+            <p>
+                Our collection of 62 in-depth case studies showcases proven tax optimization strategies
+                tailored for physicians, attorneys, surgeons, executives, and other high-income professionals.
+                Each study details the precise combination of strategies used to reduce tax liability,
+                accelerate wealth accumulation, and protect income across multiple tax years.
+            </p>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-number">62</span>
+                    <span class="stat-label">Total Studies</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">$5.1M</span>
+                    <span class="stat-label">Total Professional Savings</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">$82K</span>
+                    <span class="stat-label">Average Per Engagement</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Title -->
+    <div class="section-title">
+        <h2>Featured Case Studies</h2>
+        <p>Browse 25 highlighted engagements spanning diverse professions, income levels, and optimization strategies.</p>
+    </div>
+
+    <!-- Card Grid -->
+    <div class="card-grid">
+
+        <!-- Card 1 -->
+        <div class="case-card">
+            <span class="card-tag">Surgeon</span>
+            <h3 class="card-title">Orthopedic Surgeon Entity Restructuring for Tax-Efficient Income</h3>
+            <p class="card-description">
+                A high-volume orthopedic surgeon restructured practice income through a management company
+                and S-Corp election. This approach reduced self-employment taxes while maintaining
+                full operational control of the clinical practice.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$187,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.4M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Entity Restructuring</span>
+                <span class="strategy-tag">Management Company</span>
+                <span class="strategy-tag">S-Corp Election</span>
+                <span class="strategy-tag">Compensation Splitting</span>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="case-card">
+            <span class="card-tag">Attorney</span>
+            <h3 class="card-title">Attorney Partner Compensation Optimization with Deferred Strategies</h3>
+            <p class="card-description">
+                A senior partner at a national law firm leveraged deferred compensation planning combined
+                with a defined benefit plan. The engagement preserved current lifestyle cash flow while
+                significantly reducing current-year taxable income.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$142,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.1M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Deferred Compensation</span>
+                <span class="strategy-tag">Defined Benefit Plan</span>
+                <span class="strategy-tag">Retirement Optimization</span>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="case-card">
+            <span class="card-tag">Physician</span>
+            <h3 class="card-title">Primary Care Physician Cash Balance Plan and Backdoor Roth Conversion</h3>
+            <p class="card-description">
+                A primary care physician with a solo practice implemented a cash balance plan layered
+                on top of a 401(k). Annual contributions exceeded $200,000, creating a powerful
+                retirement acceleration vehicle alongside a backdoor Roth strategy.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$96,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$680K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Cash Balance Plan</span>
+                <span class="strategy-tag">Backdoor Roth</span>
+                <span class="strategy-tag">Retirement Optimization</span>
+                <span class="strategy-tag">401(k) Maximization</span>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="case-card">
+            <span class="card-tag">Dentist</span>
+            <h3 class="card-title">Dental Practice Owner Multi-Entity Structure with Retirement Planning</h3>
+            <p class="card-description">
+                A multi-location dental practice owner separated real estate holdings into a
+                distinct LLC while the operating entity elected S-Corp status. The combined
+                structure enabled significant retirement plan contributions and rental income sheltering.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$118,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$920K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Entity Restructuring</span>
+                <span class="strategy-tag">Defined Benefit Plan</span>
+                <span class="strategy-tag">Real Estate Separation</span>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="case-card">
+            <span class="card-tag">Executive</span>
+            <h3 class="card-title">C-Suite Executive Stock Compensation and Charitable Planning</h3>
+            <p class="card-description">
+                A Fortune 500 CFO utilized a donor-advised fund strategy to offset concentrated
+                stock option gains. Charitable giving was timed with option exercises to maximize
+                deductions during peak income years.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$215,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.8M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Charitable Planning</span>
+                <span class="strategy-tag">Donor-Advised Fund</span>
+                <span class="strategy-tag">Stock Option Timing</span>
+                <span class="strategy-tag">Capital Gains Offset</span>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="case-card">
+            <span class="card-tag">Anesthesiologist</span>
+            <h3 class="card-title">Anesthesiologist 1099 Contractor Income Optimization</h3>
+            <p class="card-description">
+                An independent anesthesiologist working across multiple hospital systems structured
+                income through an S-Corp with a defined benefit plan. This converted 1099 contractor
+                income into a tax-advantaged structure while maintaining flexibility.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$104,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$750K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">S-Corp Election</span>
+                <span class="strategy-tag">Defined Benefit Plan</span>
+                <span class="strategy-tag">1099 Optimization</span>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="case-card">
+            <span class="card-tag">Specialist</span>
+            <h3 class="card-title">Gastroenterology Specialist C-Corp Election with Retained Earnings</h3>
+            <p class="card-description">
+                A GI specialist transitioned from an S-Corp to a C-Corp structure to take advantage
+                of the flat 21% corporate rate on retained earnings. Working capital stayed within
+                the entity, reducing the physician's personal tax burden substantially.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$134,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.2M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">C-Corp Election</span>
+                <span class="strategy-tag">Retained Earnings</span>
+                <span class="strategy-tag">Compensation Splitting</span>
+                <span class="strategy-tag">Entity Restructuring</span>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="case-card">
+            <span class="card-tag">Orthodontist</span>
+            <h3 class="card-title">Orthodontist Practice Sale and Installment Sale Planning</h3>
+            <p class="card-description">
+                An orthodontist preparing for practice transition structured the sale as an installment
+                agreement to spread capital gains recognition over multiple tax years. Combined with
+                Qualified Opportunity Zone investments, the strategy deferred and reduced the total tax impact.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$246,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.6M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Installment Sale</span>
+                <span class="strategy-tag">Capital Gains Deferral</span>
+                <span class="strategy-tag">Opportunity Zone</span>
+            </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="case-card">
+            <span class="card-tag">Partner</span>
+            <h3 class="card-title">Accounting Firm Partner Income Splitting with Family Employment</h3>
+            <p class="card-description">
+                A managing partner at a regional accounting firm employed family members in
+                legitimate administrative roles to shift income into lower brackets. Combined
+                with a mega backdoor Roth, this reduced the family's overall effective tax rate.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$72,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$580K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Family Employment</span>
+                <span class="strategy-tag">Mega Backdoor Roth</span>
+                <span class="strategy-tag">Income Splitting</span>
+                <span class="strategy-tag">Bracket Management</span>
+            </div>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="case-card">
+            <span class="card-tag">Consultant</span>
+            <h3 class="card-title">Management Consultant Dual Entity Structure with QBI Optimization</h3>
+            <p class="card-description">
+                A senior management consultant earning above the QBI threshold restructured
+                operations into two entities to maximize the Section 199A deduction. The combination
+                of W-2 wages and entity income created a favorable deduction calculation.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$88,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$620K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">QBI Optimization</span>
+                <span class="strategy-tag">Section 199A</span>
+                <span class="strategy-tag">Dual Entity Structure</span>
+            </div>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="case-card">
+            <span class="card-tag">Radiologist</span>
+            <h3 class="card-title">Radiologist Group Practice Defined Benefit and Profit Sharing Plan</h3>
+            <p class="card-description">
+                A radiology group of four physicians implemented a combined defined benefit and
+                profit sharing plan. Each partner contributed over $250,000 annually on a pre-tax
+                basis, producing immediate tax relief and long-term retirement growth.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$156,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$980K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Defined Benefit Plan</span>
+                <span class="strategy-tag">Profit Sharing</span>
+                <span class="strategy-tag">Group Practice Strategy</span>
+            </div>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="case-card">
+            <span class="card-tag">Dermatologist</span>
+            <h3 class="card-title">Dermatology Practice Real Estate Acquisition and Cost Segregation</h3>
+            <p class="card-description">
+                A dermatologist purchased the building housing the practice and conducted a cost
+                segregation study. Accelerated depreciation generated paper losses that offset
+                a significant portion of high clinical income in the first year.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$168,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.1M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Cost Segregation</span>
+                <span class="strategy-tag">Real Estate Acquisition</span>
+                <span class="strategy-tag">Bonus Depreciation</span>
+                <span class="strategy-tag">Income Offset</span>
+            </div>
+        </div>
+
+        <!-- Card 13 -->
+        <div class="case-card">
+            <span class="card-tag">Cardiologist</span>
+            <h3 class="card-title">Cardiologist Captive Insurance and Risk Management Strategy</h3>
+            <p class="card-description">
+                A cardiology practice with significant malpractice exposure formed a captive
+                insurance company. Premiums paid to the captive were deductible, and the entity
+                built a reserve that also served as an investment vehicle for the physician.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$198,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.5M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Captive Insurance</span>
+                <span class="strategy-tag">Risk Management</span>
+                <span class="strategy-tag">Premium Deductions</span>
+            </div>
+        </div>
+
+        <!-- Card 14 -->
+        <div class="case-card">
+            <span class="card-tag">Corporate Officer</span>
+            <h3 class="card-title">VP of Engineering RSU and ESPP Tax Coordination</h3>
+            <p class="card-description">
+                A technology company VP coordinated the vesting of restricted stock units with
+                Employee Stock Purchase Plan dispositions. Strategic timing of sales across
+                calendar years reduced the combined federal and state tax rate on equity compensation.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$67,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$850K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">RSU Planning</span>
+                <span class="strategy-tag">ESPP Optimization</span>
+                <span class="strategy-tag">Equity Compensation</span>
+                <span class="strategy-tag">Capital Gains Timing</span>
+            </div>
+        </div>
+
+        <!-- Card 15 -->
+        <div class="case-card">
+            <span class="card-tag">Physician</span>
+            <h3 class="card-title">Emergency Medicine Physician Locum Tenens Tax Structure</h3>
+            <p class="card-description">
+                A locum tenens emergency medicine physician working across three states established
+                a single-member LLC with S-Corp election. State tax apportionment planning reduced
+                the effective multi-state tax burden while simplifying filing requirements.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$58,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$480K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Multi-State Planning</span>
+                <span class="strategy-tag">S-Corp Election</span>
+                <span class="strategy-tag">Tax Apportionment</span>
+            </div>
+        </div>
+
+        <!-- Card 16 -->
+        <div class="case-card">
+            <span class="card-tag">Surgeon</span>
+            <h3 class="card-title">Plastic Surgeon Charitable Remainder Trust and Wealth Transfer</h3>
+            <p class="card-description">
+                A plastic surgeon with appreciated investment assets funded a charitable remainder
+                unitrust. The trust provided a current income stream, an immediate charitable deduction,
+                and eventual wealth transfer to the next generation at reduced gift tax cost.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$275,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$2.0M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Charitable Remainder Trust</span>
+                <span class="strategy-tag">Wealth Transfer</span>
+                <span class="strategy-tag">Capital Gains Avoidance</span>
+            </div>
+        </div>
+
+        <!-- Card 17 -->
+        <div class="case-card">
+            <span class="card-tag">Attorney</span>
+            <h3 class="card-title">Trial Attorney Contingency Fee Income Smoothing Strategy</h3>
+            <p class="card-description">
+                A plaintiff's trial attorney with volatile contingency fee income used a
+                combination of tax-year timing and qualified retirement contributions to
+                smooth taxable income across years. This prevented exposure to the highest
+                marginal brackets during peak settlement years.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$112,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.3M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Income Smoothing</span>
+                <span class="strategy-tag">Retirement Contributions</span>
+                <span class="strategy-tag">Bracket Management</span>
+                <span class="strategy-tag">Cash Balance Plan</span>
+            </div>
+        </div>
+
+        <!-- Card 18 -->
+        <div class="case-card">
+            <span class="card-tag">Dentist</span>
+            <h3 class="card-title">Pediatric Dentist Equipment Leasing and Section 179 Strategy</h3>
+            <p class="card-description">
+                A pediatric dental practice acquired new digital imaging and treatment equipment
+                using Section 179 expensing. Strategic timing of the equipment purchase at year-end
+                created a large current-year deduction while upgrading practice technology.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$54,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$420K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Section 179</span>
+                <span class="strategy-tag">Equipment Acquisition</span>
+                <span class="strategy-tag">Year-End Planning</span>
+            </div>
+        </div>
+
+        <!-- Card 19 -->
+        <div class="case-card">
+            <span class="card-tag">Executive</span>
+            <h3 class="card-title">Chief Medical Officer Nonqualified Deferred Compensation Planning</h3>
+            <p class="card-description">
+                A hospital system CMO deferred a portion of annual bonus compensation through a
+                Section 409A compliant nonqualified plan. The deferral was timed to coincide with
+                a planned post-retirement relocation to a state with no income tax.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$148,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.2M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Deferred Compensation</span>
+                <span class="strategy-tag">Section 409A</span>
+                <span class="strategy-tag">State Tax Arbitrage</span>
+                <span class="strategy-tag">Retirement Planning</span>
+            </div>
+        </div>
+
+        <!-- Card 20 -->
+        <div class="case-card">
+            <span class="card-tag">Specialist</span>
+            <h3 class="card-title">Oncologist Research Income and Augusta Rule Optimization</h3>
+            <p class="card-description">
+                An oncologist earning supplemental research and consulting income utilized the
+                Augusta Rule to rent a personal residence to the medical practice for business
+                meetings. The rental income was tax-free to the physician, while the practice
+                deducted the expense.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$41,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$510K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Augusta Rule</span>
+                <span class="strategy-tag">Home Rental Strategy</span>
+                <span class="strategy-tag">Research Income</span>
+            </div>
+        </div>
+
+        <!-- Card 21 -->
+        <div class="case-card">
+            <span class="card-tag">Partner</span>
+            <h3 class="card-title">Law Firm Equity Partner Real Estate Professional Status Election</h3>
+            <p class="card-description">
+                A law firm equity partner with a substantial rental portfolio qualified for
+                Real Estate Professional Status. This allowed rental losses to offset active
+                partner income, producing a significant reduction in overall taxable income.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$192,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.6M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">REPS Election</span>
+                <span class="strategy-tag">Rental Loss Offset</span>
+                <span class="strategy-tag">Passive Activity Rules</span>
+                <span class="strategy-tag">Cost Segregation</span>
+            </div>
+        </div>
+
+        <!-- Card 22 -->
+        <div class="case-card">
+            <span class="card-tag">Consultant</span>
+            <h3 class="card-title">Healthcare Consultant Solo 401(k) and SEP IRA Maximization</h3>
+            <p class="card-description">
+                An independent healthcare consultant consolidated retirement accounts into a
+                solo 401(k) with a Roth component. Annual contributions of $66,000 combined
+                with a backdoor Roth conversion ladder created both current deductions and
+                future tax-free growth.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$47,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$400K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Solo 401(k)</span>
+                <span class="strategy-tag">Backdoor Roth</span>
+                <span class="strategy-tag">Retirement Optimization</span>
+            </div>
+        </div>
+
+        <!-- Card 23 -->
+        <div class="case-card">
+            <span class="card-tag">Physician</span>
+            <h3 class="card-title">Neurosurgeon Multi-State Practice and Domicile Optimization</h3>
+            <p class="card-description">
+                A neurosurgeon operating across three high-tax states restructured domicile and
+                practice billing to reduce state income tax exposure. Combined with a cash balance
+                plan, the engagement achieved savings across both federal and state levels.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$221,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$1.9M</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Domicile Planning</span>
+                <span class="strategy-tag">Multi-State Tax</span>
+                <span class="strategy-tag">Cash Balance Plan</span>
+                <span class="strategy-tag">State Tax Reduction</span>
+            </div>
+        </div>
+
+        <!-- Card 24 -->
+        <div class="case-card">
+            <span class="card-tag">Corporate Officer</span>
+            <h3 class="card-title">Chief Revenue Officer Equity Vesting and Tax Loss Harvesting</h3>
+            <p class="card-description">
+                A SaaS company CRO coordinated ISO exercises with tax-loss harvesting across
+                a taxable brokerage portfolio. Strategic pairing of gains and losses across
+                multiple accounts reduced the net capital gains tax burden in a high-income year.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$83,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$780K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">ISO Planning</span>
+                <span class="strategy-tag">Tax Loss Harvesting</span>
+                <span class="strategy-tag">Capital Gains Coordination</span>
+            </div>
+        </div>
+
+        <!-- Card 25 -->
+        <div class="case-card">
+            <span class="card-tag">Radiologist</span>
+            <h3 class="card-title">Interventional Radiologist STR Investment and Material Participation</h3>
+            <p class="card-description">
+                An interventional radiologist invested in a short-term rental property and
+                met the material participation requirements under the seven-day average rental
+                test. Bonus depreciation from a cost segregation study generated losses that
+                offset W-2 clinical income.
+            </p>
+            <div class="card-metrics">
+                <div class="metric">
+                    <span class="metric-value savings">$137,000</span>
+                    <span class="metric-label">Tax Savings</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">$890K</span>
+                    <span class="metric-label">Income Level</span>
+                </div>
+            </div>
+            <div class="strategy-tags">
+                <span class="strategy-tag">Short-Term Rental</span>
+                <span class="strategy-tag">Material Participation</span>
+                <span class="strategy-tag">Cost Segregation</span>
+                <span class="strategy-tag">Bonus Depreciation</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-inner">
+            <h2>Ready to Optimize Your Professional Income?</h2>
+            <p>
+                Every dollar you overpay in taxes is a dollar that could be working toward your
+                financial goals. Our team specializes in building custom tax strategies for
+                high-income professionals across every specialty and industry.
+                Schedule a free consultation to see what is possible.
+            </p>
+            <a href="https://aetaxadvisors.com/contact" class="cta-button">Schedule Your Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">AE <span>Tax</span> Advisors</div>
+            <ul class="footer-links">
+                <li><a href="https://aetaxadvisors.com">Home</a></li>
+                <li><a href="/case-studies/categories/">Case Studies</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="https://aetaxadvisors.com/contact">Contact</a></li>
+            </ul>
+            <div class="footer-copy">
+                Copyright 2024 AE Tax Advisors. All rights reserved. Content by AE Tax Advisors Team.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
