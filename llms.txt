@@ -1,13 +1,92 @@
-# AE Tax Advisors Case Studies
-> Documented tax planning outcomes and client engagement results from AE Tax Advisors.
+# AE Tax Advisors Illustrative Scenarios
+> A library of clearly labeled illustrative tax scenarios and worked examples from AE Tax Advisors. All scenarios are composite hypotheticals, not real clients or results.
 
 ## About
-AE Tax Advisors Case Studies showcases real-world tax planning results achieved for business owners, real estate investors, and high-income professionals. Each case study documents the client situation, strategies applied, and measurable tax savings delivered through proactive advisory engagements.
+AE Tax Advisors Illustrative Scenarios is an educational library of composite hypothetical scenarios and worked examples covering cost segregation, entity restructuring, equipment expensing, exit planning, high-income professional planning, multi-state issues, prior-year amendments, real estate professional status, retirement plans, and short-term rentals. No scenario describes a real client, and no outcome is guaranteed or typical.
 
 ## Key Pages
 - Home: https://aetaxadvisorscasestudies.com/
+- All guides: https://aetaxadvisorscasestudies.com/guides/
+
+## Cost Segregation Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/cost-segregation/: Hypothetical scenarios on studies, lookbacks, and bonus depreciation for apartments, storage, restaurants, and medical offices.
+- Scenario: Apartment Owner Considers a Lookback Study: https://aetaxadvisorscasestudies.com/scenarios/apartment-building-lookback-study-scenario/
+- Scenario: Self-Storage Facility and Site Improvements: https://aetaxadvisorscasestudies.com/scenarios/self-storage-cost-segregation-scenario/
+- Scenario: Restaurant Owner Buys the Building: https://aetaxadvisorscasestudies.com/scenarios/restaurant-building-purchase-scenario/
+- Scenario: Practice Owner Buys a Medical Office: https://aetaxadvisorscasestudies.com/scenarios/medical-office-owner-occupied-scenario/
+
+## Entity Restructuring Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/entity-restructuring/: Hypothetical scenarios on S corporation elections, multi-entity setups, spousal ownership, and C corporation comparisons.
+- Scenario: Consultant Weighs an S Corporation Election: https://aetaxadvisorscasestudies.com/scenarios/sole-proprietor-s-corp-election-scenario/
+- Scenario: Separating an Operating Company from Its Building: https://aetaxadvisorscasestudies.com/scenarios/operating-company-and-property-company-scenario/
+- Scenario: A Married Couple Co-Owns a Business: https://aetaxadvisorscasestudies.com/scenarios/married-couple-llc-ownership-scenario/
+- Scenario: A Growth Company Compares C Corporation Treatment: https://aetaxadvisorscasestudies.com/scenarios/growth-company-c-corp-comparison-scenario/
+
+## Equipment and Vehicle Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/equipment-leasing/: Hypothetical scenarios on Section 179, bonus depreciation, heavy vehicles, lease versus buy, and year-end placed-in-service timing.
+- Scenario: Choosing Between Section 179 and Bonus Depreciation: https://aetaxadvisorscasestudies.com/scenarios/section-179-and-bonus-equipment-purchase-scenario/
+- Scenario: A Contractor Considers a Heavy Truck: https://aetaxadvisorscasestudies.com/scenarios/heavy-vehicle-purchase-scenario/
+- Scenario: Lease Versus Buy Analysis for Equipment: https://aetaxadvisorscasestudies.com/scenarios/lease-versus-buy-equipment-scenario/
+- Scenario: Year-End Equipment and the Placed-in-Service Date: https://aetaxadvisorscasestudies.com/scenarios/year-end-placed-in-service-timing-scenario/
+
+## Exit Planning Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/exit-planning/: Hypothetical scenarios on asset versus stock sales, qualified small business stock, installment sales, and portfolio exits.
+- Scenario: Asset Sale or Stock Sale for an S Corporation: https://aetaxadvisorscasestudies.com/scenarios/asset-sale-vs-stock-sale-scenario/
+- Scenario: A Founder and Qualified Small Business Stock: https://aetaxadvisorscasestudies.com/scenarios/qsbs-founder-exit-scenario/
+- Scenario: Selling a Business for Payments Over Time: https://aetaxadvisorscasestudies.com/scenarios/installment-sale-of-a-business-scenario/
+- Scenario: Exiting a Rental Portfolio, Sale or Exchange: https://aetaxadvisorscasestudies.com/scenarios/rental-portfolio-exit-scenario/
+
+## High-Income Professional Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/high-income-professionals/: Hypothetical scenarios for physicians, attorneys, technology employees, and consultants on retirement, equity pay, and estimates.
+- Scenario: A Physician with Side Income and a Backdoor Roth: https://aetaxadvisorscasestudies.com/scenarios/physician-side-income-and-backdoor-roth-scenario/
+- Scenario: A Law Firm Partner and Year-End Planning: https://aetaxadvisorscasestudies.com/scenarios/attorney-partner-planning-scenario/
+- Scenario: A Technology Employee and RSU Withholding: https://aetaxadvisorscasestudies.com/scenarios/technology-employee-rsu-withholding-scenario/
+- Scenario: A Consultant Plans for Uneven 1099 Income: https://aetaxadvisorscasestudies.com/scenarios/consultant-quarterly-planning-scenario/
+
+## Multi-State Tax Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/multi-state-optimization/: Hypothetical scenarios on remote employees, multi-state customers, pass-through entity tax, and nonresident rental income.
+- Scenario: A Remote Employee Moves to a New State: https://aetaxadvisorscasestudies.com/scenarios/remote-employee-new-state-scenario/
+- Scenario: A Business Sells to Customers in Several States: https://aetaxadvisorscasestudies.com/scenarios/customers-in-several-states-scenario/
+- Scenario: A State Pass-Through Entity Tax Election: https://aetaxadvisorscasestudies.com/scenarios/pass-through-entity-tax-scenario/
+- Scenario: A Rental Property in Another State: https://aetaxadvisorscasestudies.com/scenarios/nonresident-rental-income-scenario/
+
+## Prior-Year Amendment Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/prior-year-amendments/: Hypothetical scenarios on missed depreciation, missed deductions, late S corporation elections, and filing errors.
+- Scenario: A Landlord Who Never Claimed Depreciation: https://aetaxadvisorscasestudies.com/scenarios/missed-depreciation-form-3115-scenario/
+- Scenario: A Missed QBI Deduction and an Amended Return: https://aetaxadvisorscasestudies.com/scenarios/missed-qbi-deduction-amendment-scenario/
+- Scenario: An S Corporation Election That Was Never Filed: https://aetaxadvisorscasestudies.com/scenarios/late-s-corp-election-relief-scenario/
+- Scenario: A Filing Status and Credit Error: https://aetaxadvisorscasestudies.com/scenarios/filing-status-and-credit-error-scenario/
+
+## Real Estate Professional Status Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/real-estate-professional-status/: Hypothetical scenarios on qualification tests, spouses, agents, grouping elections, and time log examinations.
+- Scenario: A Couple Considering Real Estate Professional Status: https://aetaxadvisorscasestudies.com/scenarios/spouse-real-estate-professional-scenario/
+- Scenario: A Real Estate Agent and the Professional Tests: https://aetaxadvisorscasestudies.com/scenarios/real-estate-agent-professional-status-scenario/
+- Scenario: An Investor Weighs a Grouping Election: https://aetaxadvisorscasestudies.com/scenarios/grouping-election-scenario/
+- Scenario: A Time Log Under Review: https://aetaxadvisorscasestudies.com/scenarios/time-log-review-scenario/
+
+## Retirement Plan Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/retirement-planning/: Hypothetical scenarios on solo 401(k), cash balance, SEP funding deadlines, and defined benefit plans with employees.
+- Scenario: A Consultant and a Solo 401(k): https://aetaxadvisorscasestudies.com/scenarios/solo-401k-consultant-scenario/
+- Scenario: A Small Practice Considers a Cash Balance Plan: https://aetaxadvisorscasestudies.com/scenarios/cash-balance-plan-small-practice-scenario/
+- Scenario: Realizing in March That No Retirement Plan Exists: https://aetaxadvisorscasestudies.com/scenarios/sep-ira-funding-deadline-scenario/
+- Scenario: Modeling a Defined Benefit Plan with Employees: https://aetaxadvisorscasestudies.com/scenarios/retirement-plan-with-employees-defined-benefit-scenario/
+
+## Short-Term Rental Scenarios
+- Hub: https://aetaxadvisorscasestudies.com/categories/str-tax-strategy/: Hypothetical scenarios on W-2 earners, conversions, property managers, and cost segregation with suspended losses.
+- Scenario: A W-2 Earner Buys a Short-Term Rental: https://aetaxadvisorscasestudies.com/scenarios/w2-earner-buys-str-scenario/
+- Scenario: Converting a Long-Term Rental to a Short-Term Rental: https://aetaxadvisorscasestudies.com/scenarios/long-term-to-short-term-conversion-scenario/
+- Scenario: A Short-Term Rental with a Property Manager: https://aetaxadvisorscasestudies.com/scenarios/str-with-property-manager-scenario/
+- Scenario: Cost Segregation When Losses Are Suspended: https://aetaxadvisorscasestudies.com/scenarios/str-cost-segregation-suspended-losses-scenario/
+
+## About the Scenario Library
+- Hub: https://aetaxadvisorscasestudies.com/categories/library-guide/: How to read the illustrative scenarios, how the numbers are built, and what the scenarios can and cannot tell you.
+- How to Read the Illustrative Scenarios: https://aetaxadvisorscasestudies.com/scenarios/how-to-read-these-scenarios/
+- How the Numbers in the Scenarios Are Built: https://aetaxadvisorscasestudies.com/scenarios/how-numbers-are-built/
 
 ## Contact
 - Book a discovery call: https://aetaxadvisors.com/discovery
 - Email: team@aetaxadvisors.com
 - Phone: (631) 614-5762
+
+## Notice
+Content is educational only and is not tax, legal, or accounting advice.

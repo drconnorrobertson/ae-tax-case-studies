@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scenario: Cost Segregation When Losses Are Suspended</title>
+<meta name="description" content="An illustrative scenario on what happens when accelerated depreciation creates a passive loss that cannot be used now, and how timing and recapture matter.">
+<meta property="og:title" content="Scenario: Cost Segregation When Losses Are Suspended">
+<meta property="og:description" content="An illustrative scenario on what happens when accelerated depreciation creates a passive loss that cannot be used now, and how timing and recapture matter.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aetaxadvisorscasestudies.com/scenarios/str-cost-segregation-suspended-losses-scenario/">
+<link rel="canonical" href="https://aetaxadvisorscasestudies.com/scenarios/str-cost-segregation-suspended-losses-scenario/">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Scenario: Cost Segregation When Losses Are Suspended","description":"An illustrative scenario on what happens when accelerated depreciation creates a passive loss that cannot be used now, and how timing and recapture matter.","author":{"@type":"Organization","name":"AE Tax Advisors","url":"https://aetaxadvisors.com"},"publisher":{"@type":"Organization","name":"AE Tax Advisors","url":"https://aetaxadvisors.com"},"datePublished":"2026-09-24","dateModified":"2026-09-24","mainEntityOfPage":"https://aetaxadvisorscasestudies.com/scenarios/str-cost-segregation-suspended-losses-scenario/","url":"https://aetaxadvisorscasestudies.com/scenarios/str-cost-segregation-suspended-losses-scenario/","inLanguage":"en-US"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Scenario Library","item":"https://aetaxadvisorscasestudies.com/"},{"@type":"ListItem","position":2,"name":"Short-Term Rental Scenarios","item":"https://aetaxadvisorscasestudies.com/categories/str-tax-strategy/"},{"@type":"ListItem","position":3,"name":"Scenario: Cost Segregation When Losses Are Suspended","item":"https://aetaxadvisorscasestudies.com/scenarios/str-cost-segregation-suspended-losses-scenario/"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are suspended losses lost?","acceptedAnswer":{"@type":"Answer","text":"Generally no. They carry forward and may be used against passive income or released on a qualifying sale."}},{"@type":"Question","name":"Do all investors face suspended losses from cost segregation?","acceptedAnswer":{"@type":"Answer","text":"No. The result depends on participation, other income, and the loss limitation rules."}}]}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Inter",sans-serif;background:#fff;color:#1a1a2e;line-height:1.6}
+a{color:#e94560}
+.nav{background:#fff;border-bottom:1px solid #e0e0e0;padding:15px 20px;text-align:center;position:sticky;top:0;z-index:100}
+.nav a{color:#1a1a2e;text-decoration:none;font-weight:600;font-size:.95rem;margin:0 15px;display:inline-block}.nav a:hover{color:#e94560}
+.hero{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);color:#fff;padding:60px 20px 50px;text-align:center}
+.hero h1{font-size:2.4rem;font-weight:800;margin:0 auto 16px;letter-spacing:-1px;line-height:1.15;max-width:820px}
+.hero h1 span{color:#e94560}
+.hero .meta{font-size:.9rem;opacity:.7}
+.hero.big{padding:100px 20px 80px}.hero.big h1{font-size:3rem;line-height:1.1;max-width:900px}
+.hero.big p{font-size:1.25rem;opacity:.85;max-width:720px;margin:0 auto 40px}
+.btn{display:inline-block;background:#e94560;color:#fff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem}.btn:hover{background:#d63851}
+.crumbs{max-width:760px;margin:0 auto;padding:18px 20px 0;font-size:.85rem;color:#777}.crumbs a{color:#555;text-decoration:none}.crumbs a:hover{color:#e94560}
+.banner{max-width:720px;margin:20px auto 0;background:#fff8e6;border:1px solid #f0d58a;border-radius:8px;padding:14px 18px;font-size:.92rem;color:#5b4a12;line-height:1.6}
+.content{max-width:760px;margin:0 auto;padding:30px 20px 50px}
+.content.flush{padding:0}
+.content h2{font-size:1.6rem;font-weight:800;margin:36px 0 14px;color:#1a1a2e;line-height:1.25}
+.content h3{font-size:1.2rem;font-weight:700;margin:28px 0 10px;color:#16213e}
+.content p{font-size:1rem;line-height:1.8;color:#444;margin-bottom:16px}
+.content ul,.content ol{margin:16px 0 16px 24px}.content li{font-size:.98rem;line-height:1.7;color:#555;margin-bottom:8px}
+.content a{color:#c9263f}
+.highlight{background:#f8f9fa;border-left:4px solid #e94560;padding:20px 24px;border-radius:0 8px 8px 0;margin:24px 0}
+.content .highlight p{margin:0;font-weight:600;color:#1a1a2e}
+.tw{overflow-x:auto;margin:22px 0}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th{background:#1a1a2e;color:#fff;padding:12px 14px;text-align:left}
+td{padding:11px 14px;border-bottom:1px solid #eee;color:#555;vertical-align:top}
+tr:nth-child(even) td{background:#f8f9fa}
+.faq{background:#f8f9fa;padding:32px 24px;margin-top:40px;border-radius:12px}
+.content .faq h2{margin-top:0;text-align:center}
+.faq-item{border-bottom:1px solid #e0e0e0;padding:18px 0}.faq-item:last-child{border:none}
+.content .faq-item h3{font-size:1.05rem;margin:0 0 8px}.content .faq-item p{font-size:.95rem;margin:0}
+.related{margin-top:44px}
+.rg{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;margin:16px 0}
+.rg.one{grid-template-columns:1fr}
+.rc{display:block;background:#fff;border:1px solid #eee;border-radius:12px;padding:18px;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.05);transition:transform .2s}
+.rc:hover{transform:translateY(-3px);border-color:#e94560}
+.rc strong{display:block;color:#1a1a2e;font-size:1rem;margin-bottom:6px;line-height:1.35}.rc span{display:block;color:#666;font-size:.86rem;line-height:1.5}
+.hublink{font-size:.95rem}
+.cta-box{background:linear-gradient(135deg,#1a1a2e,#0f3460);color:#fff;padding:50px 30px;text-align:center;border-radius:12px;margin-top:40px}
+.cta-box h2{font-size:1.8rem;font-weight:800;margin:0 0 12px;color:#fff}.cta-box p{color:#fff;opacity:.85;margin-bottom:24px}
+.disc-inline{font-size:.82rem!important;color:#777!important;margin-top:28px!important;line-height:1.6!important}
+.section{padding:70px 20px}.section-alt{background:#f8f9fa}
+.inner{max-width:1100px;margin:0 auto}.inner.narrow{max-width:760px}
+.sh{text-align:center;margin-bottom:40px}.sh h2{font-size:2.1rem;font-weight:800;margin-bottom:12px}.sh p{font-size:1.05rem;color:#666;max-width:650px;margin:0 auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:26px}
+.card{display:block;background:#fff;border-radius:16px;padding:30px;box-shadow:0 4px 20px rgba(0,0,0,.06);border:1px solid #f0f0f0;text-decoration:none;transition:transform .3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 30px rgba(0,0,0,.1)}
+.card .cnt{font-size:.75rem;font-weight:700;color:#e94560;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.card h3{font-size:1.25rem;font-weight:700;margin-bottom:10px;color:#1a1a2e}
+.card p{color:#555;line-height:1.65;font-size:.94rem;margin-bottom:14px}
+.card .more{color:#e94560;font-weight:600;font-size:.9rem}
+.cta{background:linear-gradient(135deg,#1a1a2e,#0f3460);color:#fff;padding:80px 20px;text-align:center}
+.cta h2{font-size:2.1rem;font-weight:800;margin-bottom:16px}.cta p{font-size:1.1rem;opacity:.85;max-width:620px;margin:0 auto 30px}
+.footer{background:#1a1a2e;color:#fff;padding:40px 20px;text-align:center;margin-top:60px}
+.footer .fh{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;margin-bottom:20px}
+.footer .fh a{color:#fff;opacity:.85;font-size:.85rem;text-decoration:none}.footer .fh a:hover{color:#e94560}
+.footer p{opacity:.6;font-size:.85rem;margin-top:10px}.footer .disc{max-width:720px;margin:0 auto;line-height:1.6}.footer a{color:#e94560;text-decoration:none}
+@media(max-width:768px){.hero h1{font-size:1.8rem}.hero.big h1{font-size:2.2rem}.grid{grid-template-columns:1fr}.nav a{margin:0 8px;font-size:.85rem}}
+
+</style>
+</head>
+<body>
+<nav class="nav"><a href="https://aetaxadvisors.com">AE Tax Advisors</a><a href="/">Scenario Library</a><a href="/guides/">All Guides</a><a href="https://aetaxadvisors.com/discovery">Free Consultation</a></nav>
+<section class="hero"><h1>Scenario: Cost Segregation When Losses Are Suspended</h1><p class="meta">By AE Tax Advisors | Educational guide | Updated September 2026</p></section>
+<div class="crumbs"><a href="/">Scenario Library</a> / <a href="/categories/str-tax-strategy/">Short-Term Rental Scenarios</a> / <span>Scenario: Cost Segregation When Losses Are Suspended</span></div>
+<div class="banner"><strong>Illustrative scenario.</strong> This page describes a composite hypothetical created for education. It is not a real client, and no real person or business is described. Figures are simplified assumptions, not results, and no outcome is guaranteed or typical.</div>
+<article class="content">
+<p>This page describes a composite hypothetical. It is not a real client or a real result. Amounts, rates, and dates are assumptions for illustration.</p>
+<h2>The Scenario in Brief</h2>
+<p>An investor buys a short-term rental and commissions a cost segregation study. Because the investor uses a management company and cannot show material participation, the activity is passive. The study generates a large first-year depreciation deduction, and the resulting loss is suspended. The investor is disappointed and asks the advisor whether the study was worthwhile.</p>
+<h2>Assumptions Used</h2>
+<ul><li>First-year depreciation with the study and bonus depreciation creates a passive loss of 150,000 dollars after other income and expenses.</li><li>The investor has no other passive income at the moment.</li><li>The investor expects to hold the property for six years and then sell it, with an assumed taxable gain of 200,000 dollars, including depreciation recapture.</li><li>The suspended loss is not used in the interim, and the property generates small net income in later years, which is ignored for simplicity.</li><li>Assumed flat rates: 32 percent on ordinary income, and for simplicity the same 32 percent applies to the gain, to keep the arithmetic easy, though the actual rates on capital gain and recapture differ.</li><li>The study fee is assumed at 6,000 dollars.</li></ul>
+<h2>What Happens to the Suspended Loss</h2>
+<p>The passive loss is carried forward, keeping its passive character. It can offset future passive income, and when the investor sells the entire interest in a fully taxable transaction to an unrelated party, the suspended loss is generally released. The ordering rules would first apply the released loss against the gain from the sale, then against other passive income, and then against nonpassive income.</p>
+<h2>Worked Arithmetic at Sale</h2>
+<div class="tw"><table><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody><tr><td>Assumed gain on sale</td><td>200,000 dollars</td></tr><tr><td>Suspended loss released</td><td>150,000 dollars</td></tr><tr><td>Net gain after applying the loss</td><td>50,000 dollars</td></tr><tr><td>Illustrative tax on gain without the loss at an assumed 32 percent</td><td>64,000 dollars</td></tr><tr><td>Illustrative tax with the loss applied</td><td>16,000 dollars</td></tr><tr><td>Difference</td><td>48,000 dollars</td></tr></tbody></table></div>
+<p>The difference of 48,000 dollars is arithmetic on assumed numbers. It would arrive in year six, not in year one. The advisor would point out that the study also increases depreciation recapture at sale, since the shorter-life components were deducted quickly, so the gain would be larger than if the depreciation had been slower. The overall effect of the study is therefore mainly one of timing within the sale year, not a permanent reduction of tax, and the cost of the study should be compared to that timing.</p>
+<h2>Comparing with No Study</h2>
+<p>Without the study, first-year depreciation would have been smaller, the suspended loss would have been smaller, and the gain at sale would have been smaller by the same total. Over the whole holding period, total depreciation is the same. The study moves depreciation earlier. If the deduction can be used immediately, the earlier timing has value. If the deduction is suspended until sale, the timing has little value, and the study fee is an added cost. This is the core lesson.</p>
+<h2>Could the Study Still Have Value</h2>
+<p>The advisor would list situations in which a study could still be worthwhile for a passive investor. If the investor expects to have passive income, such as from other investments or from the property itself in later years, the suspended loss could be used sooner. If the investor changes facts so the activity becomes nonpassive in a later year, for example by becoming materially participating, the deduction could be used. If the investor plans to exchange the property in a like-kind exchange, the suspended losses would generally remain suspended, and the benefit would be deferred further.</p>
+<h2>Illustrative Cost-Benefit</h2>
+<p>With a study fee of 6,000 dollars and a deferred benefit of the kind shown above arriving in six years, the advisor would help the investor consider the time value of money and the uncertainty about future rates and law. The advisor would not suggest that the study was a mistake or a success without the investor's facts. The advisor would recommend that the investor decide about future studies after modeling the loss limits in advance.</p>
+<h2>Scenario Variations Worth Considering</h2>
+<p>If the investor had 60,000 dollars of passive income each year, the loss could be used in the first few years. If the investor materially participated, the loss might be deductible immediately. If the investor held the property until death, heirs might receive a stepped-up basis, and the analysis of suspended losses at death would apply. If the investor sold in year two, the loss would be released earlier.</p>
+<h2>Risks and Limits</h2>
+<ul><li>The benefit of suspended losses depends on future events.</li><li>Recapture reduces the long-term benefit.</li><li>Rates and laws change.</li><li>The arithmetic is simplified.</li></ul>
+<h2>What This Scenario Teaches</h2>
+<p>A depreciation deduction is valuable only when it can be used. Before commissioning a study, model the loss limits and the expected holding period. Ask what happens if the deduction is delayed.</p>
+<h2>Questions to Bring to Your Advisor</h2>
+<ol><li>Can I use the deduction from a study this year?</li><li>If not, when might I use it?</li><li>How does recapture change the value?</li><li>Does the study fee make sense on those facts?</li></ol>
+
+<div class="faq"><h2>Frequently Asked Questions</h2><div class="faq-item"><h3>Are suspended losses lost?</h3><p>Generally no. They carry forward and may be used against passive income or released on a qualifying sale.</p></div><div class="faq-item"><h3>Do all investors face suspended losses from cost segregation?</h3><p>No. The result depends on participation, other income, and the loss limitation rules.</p></div></div>
+<div class="related"><h2>Related Guides</h2><div class="rg"><a class="rc" href="/scenarios/apartment-building-lookback-study-scenario/"><strong>Scenario: Apartment Owner Considers a Lookback Study</strong><span>An illustrative scenario on evaluating a lookback cost segregation study for an apartment building, with simplified arithmetic and stated assumptions.</span></a><a class="rc" href="/scenarios/self-storage-cost-segregation-scenario/"><strong>Scenario: Self-Storage Facility and Site Improvements</strong><span>An illustrative scenario on how site work, paving, and fixtures at a self-storage facility might be classified in a cost segregation analysis.</span></a><a class="rc" href="/scenarios/str-with-property-manager-scenario/"><strong>Scenario: A Short-Term Rental with a Property Manager</strong><span>An illustrative scenario showing how a full-service property manager can defeat material participation tests, and how passive income could still absorb losses.</span></a><a class="rc" href="/scenarios/rental-portfolio-exit-scenario/"><strong>Scenario: Exiting a Rental Portfolio, Sale or Exchange</strong><span>An illustrative scenario comparing a taxable sale of rental properties with a like-kind exchange, including recapture, suspended losses, and timing.</span></a></div>
+<h3>More in <a href="/categories/str-tax-strategy/">Short-Term Rental Scenarios</a></h3><ul><li><a href="/scenarios/w2-earner-buys-str-scenario/">Scenario: A W-2 Earner Buys a Short-Term Rental</a></li><li><a href="/scenarios/long-term-to-short-term-conversion-scenario/">Scenario: Converting a Long-Term Rental to a Short-Term Rental</a></li></ul>
+<p class="hublink">Back to the hub: <a href="/categories/str-tax-strategy/">Short-Term Rental Scenarios</a> | <a href="/guides/">Browse all guides</a></p></div>
+<div class="cta-box"><h2>Want to Talk Through Your Own Situation?</h2><p>These scenarios are illustrations only. Book a discovery call with AE Tax Advisors to discuss the facts of your own business or portfolio.</p><a href="https://aetaxadvisors.com/discovery" class="btn">Book a Discovery Call</a></div>
+<p class="disc-inline"><strong>Educational purposes only.</strong> This page is an illustrative educational scenario, not tax, legal, or accounting advice, and it does not describe a real client or a real result. Tax laws change and outcomes depend on individual facts, so consult a qualified professional before acting. No result is guaranteed.</p>
+</article>
+<footer class="footer"><div class="fh"><a href="/categories/cost-segregation/">Cost Segregation Scenarios</a><a href="/categories/entity-restructuring/">Entity Restructuring Scenarios</a><a href="/categories/equipment-leasing/">Equipment and Vehicle Scenarios</a><a href="/categories/exit-planning/">Exit Planning Scenarios</a><a href="/categories/high-income-professionals/">High-Income Professional Scenarios</a><a href="/categories/multi-state-optimization/">Multi-State Tax Scenarios</a><a href="/categories/prior-year-amendments/">Prior-Year Amendment Scenarios</a><a href="/categories/real-estate-professional-status/">Real Estate Professional Status Scenarios</a><a href="/categories/retirement-planning/">Retirement Plan Scenarios</a><a href="/categories/str-tax-strategy/">Short-Term Rental Scenarios</a><a href="/categories/library-guide/">About the Scenario Library</a></div><p class="disc">This page is an illustrative educational scenario, not tax, legal, or accounting advice, and it does not describe a real client or a real result. Tax laws change and outcomes depend on individual facts, so consult a qualified professional before acting. No result is guaranteed.</p><p><strong>AE Tax Advisors</strong></p><p>&copy; 2026 AE Tax Advisors. All rights reserved. | <a href="https://aetaxadvisors.com">aetaxadvisors.com</a> | <a href="/guides/">All Guides</a></p></footer>
+</body>
+</html>
