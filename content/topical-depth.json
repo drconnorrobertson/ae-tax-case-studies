@@ -1,0 +1,372 @@
+{
+  "key": "scenarios",
+  "domain": "aetaxadvisorscasestudies.com",
+  "date": "2026-10-09",
+  "baseline": 200,
+  "target": 400,
+  "route": "scenario-lab",
+  "publisher": "AE Tax Advisors",
+  "service": "https://www.aetaxadvisors.com/discovery/",
+  "topics": [
+    {
+      "title": "Illustrative travel advance overpayment",
+      "trigger": "This fictional case concerns a company travel advance partly returned by a hotel.",
+      "principle": "The evidence problem is separating the employee's original advance from substantiated expenses and excess amounts. The scenario does not establish an actual tax result.",
+      "example": "A fictional clinician receives a travel advance, cancels a hotel night and submits an expense report with the original booking total.",
+      "checks": [
+        "Advance authorization missing",
+        "Hotel refund discovered",
+        "Expense report timing unclear",
+        "Business-purpose note absent",
+        "Excess return unconfirmed",
+        "Payroll treatment unresolved",
+        "Book adjustment pending",
+        "Reviewer question unanswered",
+        "Future advance control absent"
+      ],
+      "tag": "reimbursement"
+    },
+    {
+      "title": "Illustrative duplicate owner expense",
+      "trigger": "This fictional case concerns one purchase recorded through several payment systems.",
+      "principle": "The learning objective is tracing one underlying expenditure. A reimbursement, imported card line and vendor invoice should be connected before a reviewer evaluates the expense.",
+      "example": "A fictional consultant requests reimbursement for a software bill that a bookkeeper already recorded from a personal card statement.",
+      "checks": [
+        "Vendor receipt duplicated",
+        "Payment owner unclear",
+        "Reimbursement request repeated",
+        "Refund overlooked",
+        "Bank import misclassified",
+        "Owner balance misstated",
+        "Prior year entry uncertain",
+        "Correction approver missing",
+        "Duplicate control untested"
+      ],
+      "tag": "reimbursement"
+    },
+    {
+      "title": "Illustrative shareholder distribution mismatch",
+      "trigger": "This fictional case compares equal cash payments with different shareholder histories.",
+      "principle": "The scenario illustrates why cash distributions require shareholder-level stock basis information. Debt basis and corporate cash balances do not settle the distribution analysis.",
+      "example": "Two fictional shareholders receive equal distributions despite different capital contributions and prior deductions.",
+      "checks": [
+        "Opening basis unavailable",
+        "Capital contribution omitted",
+        "Prior distribution forgotten",
+        "Current income incomplete",
+        "Debt basis substituted",
+        "Nondeductible expense missing",
+        "Distribution date unclear",
+        "Form 7203 handoff incomplete",
+        "Next payment unreviewed"
+      ],
+      "tag": "basis"
+    },
+    {
+      "title": "Illustrative shareholder debt repayment",
+      "trigger": "This fictional case involves an owner loan after prior-year losses.",
+      "principle": "The scenario separates contractual debt, payment evidence and adjusted debt basis. A bank memo stating loan repayment does not determine the shareholder's tax treatment.",
+      "example": "A fictional business repays its owner after using a shareholder loan to support earlier loss deductions.",
+      "checks": [
+        "Loan agreement unavailable",
+        "Lender identity ambiguous",
+        "Advance evidence incomplete",
+        "Prior loss history missing",
+        "Debt basis unreconciled",
+        "Interest bundled with principal",
+        "Repayment date disputed",
+        "Tax-character conclusion absent",
+        "Remaining balance unconfirmed"
+      ],
+      "tag": "basis"
+    },
+    {
+      "title": "Illustrative owner compensation transition",
+      "trigger": "This fictional case concerns a founder who delegates operations.",
+      "principle": "The example distinguishes a documented role change from a salary chosen only to achieve a desired tax outcome. Actual services and compensation facts need review.",
+      "example": "A fictional restaurant founder hires a general manager and reduces time spent on day-to-day operations.",
+      "checks": [
+        "Old role carried forward",
+        "Current duties undocumented",
+        "Hours estimate unsupported",
+        "Comparison data mismatched",
+        "Bonus history omitted",
+        "Distribution context ignored",
+        "Reviewer method unclear",
+        "Payroll instruction absent",
+        "Midyear change overlooked"
+      ],
+      "tag": "payroll"
+    },
+    {
+      "title": "Illustrative retirement census gap",
+      "trigger": "This fictional case concerns employee data before a proposed contribution.",
+      "principle": "The example shows why an owner-only estimate can be incomplete. The administrator needs accurate employment, compensation and related-employer facts.",
+      "example": "A fictional salon adds staff and shares an owner with another business before requesting a plan contribution estimate.",
+      "checks": [
+        "Employee omitted from census",
+        "Hire date inconsistent",
+        "Hours record incomplete",
+        "Compensation definition unknown",
+        "Related employer absent",
+        "Owner attribution missing",
+        "Payroll totals unmatched",
+        "Administrator response pending",
+        "Funding prematurely approved"
+      ],
+      "tag": "retirement"
+    },
+    {
+      "title": "Illustrative estimated tax revision",
+      "trigger": "This fictional case concerns an income forecast that changes midyear.",
+      "principle": "The example separates actual cash received, projected taxable income, existing payments and household withholding. It does not supply a client-specific safe-harbor conclusion.",
+      "example": "A fictional consulting owner receives an annual client prepayment after an earlier forecast assumed monthly billing.",
+      "checks": [
+        "Old baseline unreconciled",
+        "New revenue overstated",
+        "Cost forecast unchanged",
+        "Household income missing",
+        "Withholding update omitted",
+        "Federal payment unmatched",
+        "State payment overlooked",
+        "Timing analysis unresolved",
+        "Revised instruction undocumented"
+      ],
+      "tag": "estimates"
+    },
+    {
+      "title": "Illustrative contractor deposit timing",
+      "trigger": "This fictional case concerns cash received before the job is finished.",
+      "principle": "The evidence issue is distinguishing contract obligations, accounting treatment and usable cash. A deposit does not independently establish distributable after-tax profit.",
+      "example": "A fictional construction business collects a project deposit and pays materials while the work has not begun.",
+      "checks": [
+        "Contract terms missing",
+        "Deposit refundability unknown",
+        "Job start uncertain",
+        "Accounting method unstated",
+        "Material commitment ignored",
+        "Owner withdrawal proposed",
+        "Revenue posting inconsistent",
+        "Reviewer conclusion absent",
+        "Period-end balance incomplete"
+      ],
+      "tag": "records"
+    },
+    {
+      "title": "Illustrative equipment installation delay",
+      "trigger": "This fictional case concerns equipment ordered before year-end.",
+      "principle": "The example separates purchase, payment, delivery and readiness for intended use. It does not assume that an invoice date determines depreciation timing.",
+      "example": "A fictional manufacturer pays in December, receives equipment after the holiday and completes testing in January.",
+      "checks": [
+        "Purchase terms unclear",
+        "Deposit treated as full cost",
+        "Delivery proof absent",
+        "Installation unfinished",
+        "Testing date unrecorded",
+        "Service date assumed",
+        "Old asset still listed",
+        "Tax-year rule unchecked",
+        "Schedule update pending"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Illustrative rental closing allocation",
+      "trigger": "This fictional case concerns a property acquisition with several closing entries.",
+      "principle": "The example distinguishes land, building, financing and prepaid costs. A closing total alone is not a complete depreciable basis analysis.",
+      "example": "A fictional investor imports the closing statement total into the building account without reviewing lender charges or insurance.",
+      "checks": [
+        "Land value unsupported",
+        "Purchase allocation absent",
+        "Loan fee bundled",
+        "Insurance prepayment capitalized",
+        "Tax proration ignored",
+        "Seller credit unclear",
+        "Payment trail incomplete",
+        "Preparer approval missing",
+        "Asset opening balance wrong"
+      ],
+      "tag": "basis"
+    },
+    {
+      "title": "Illustrative phased rental renovation",
+      "trigger": "This fictional case concerns work completed in multiple stages.",
+      "principle": "The scenario shows how one final bill can conceal different projects, locations and readiness dates. Each phase needs a traceable cost and timing record.",
+      "example": "A fictional landlord renovates two units while keeping other units occupied and receives a consolidated contractor invoice.",
+      "checks": [
+        "Unit locations combined",
+        "Draws treated as assets",
+        "Change order omitted",
+        "Direct purchase duplicated",
+        "Retainage unresolved",
+        "Phase dates missing",
+        "Readiness unverified",
+        "Old component history absent",
+        "Final asset schedule incomplete"
+      ],
+      "tag": "improvement"
+    },
+    {
+      "title": "Illustrative rental owner-use calendar",
+      "trigger": "This fictional case concerns a property used by guests and the owner's family.",
+      "principle": "The scenario distinguishes personal stays, genuine repair visits and unoccupied days. A blocked calendar entry does not establish its tax classification.",
+      "example": "A fictional cabin owner blocks dates for family visits, maintenance and gaps between guest reservations.",
+      "checks": [
+        "Guest days incomplete",
+        "Family stays omitted",
+        "Maintenance purpose unsupported",
+        "Blocked days assumed personal",
+        "Related-person use missing",
+        "Expense allocation unexplained",
+        "Calendar sources disagree",
+        "Preparer classification pending",
+        "Future logging unchanged"
+      ],
+      "tag": "participation"
+    },
+    {
+      "title": "Illustrative STR service classification",
+      "trigger": "This fictional case concerns differing services offered to short-term guests.",
+      "principle": "The example focuses on actual operations rather than a listing description. Stay duration, services and participation are different factual questions.",
+      "example": "A fictional host offers optional daily cleaning during some stays but only turnover cleaning during others.",
+      "checks": [
+        "Service wording vague",
+        "Actual cleaning log absent",
+        "Guest charge bundled",
+        "Staff role unclear",
+        "Stay averages unsupported",
+        "Owner time overstated",
+        "Reporting assumption premature",
+        "Preparer conclusion missing",
+        "Next booking policy changed"
+      ],
+      "tag": "participation"
+    },
+    {
+      "title": "Illustrative rental loss review",
+      "trigger": "This fictional case concerns a projected deduction that may not currently reduce other income.",
+      "principle": "The example distinguishes the existence of a depreciation deduction from whether a taxpayer can use the resulting loss. Separate limitation analyses can apply.",
+      "example": "A fictional owner receives a cost segregation estimate before supplying basis, financing and activity participation records.",
+      "checks": [
+        "Deduction estimate mistaken for savings",
+        "Basis schedule absent",
+        "At-risk facts incomplete",
+        "Passive status assumed",
+        "Participation log unsupported",
+        "Carryforward history omitted",
+        "Household income unknown",
+        "State treatment ignored",
+        "Preparer usable-loss review pending"
+      ],
+      "tag": "participation"
+    },
+    {
+      "title": "Illustrative inherited rental records",
+      "trigger": "This fictional case concerns a rental received through an estate.",
+      "principle": "The starting records differ from those of an ordinary purchase. The preparer must identify the actual transfer facts and basis before a study relies on a cost pool.",
+      "example": "A fictional beneficiary receives a rental and supplies only the property's current asking price to a study provider.",
+      "checks": [
+        "Estate facts incomplete",
+        "Valuation date unclear",
+        "Appraisal unavailable",
+        "Ownership share omitted",
+        "Later improvements bundled",
+        "Land allocation missing",
+        "Prior use unknown",
+        "Preparer basis not approved",
+        "Study pool premature"
+      ],
+      "tag": "basis"
+    },
+    {
+      "title": "Illustrative prior study overlap",
+      "trigger": "This fictional case concerns a property that already has a cost segregation history.",
+      "principle": "The example illustrates the need to identify prior classifications and later additions. A second report should not silently create a duplicate cost pool.",
+      "example": "A fictional owner orders another study without disclosing an earlier report and a separate furniture asset schedule.",
+      "checks": [
+        "Old report missing",
+        "Asset identifiers changed",
+        "Furniture duplicated",
+        "Later additions omitted",
+        "Prior elections absent",
+        "Schedule totals unmatched",
+        "New methodology unexplained",
+        "Preparer acceptance missing",
+        "Version history lost"
+      ],
+      "tag": "costseg"
+    },
+    {
+      "title": "Illustrative refinance proceeds tracing",
+      "trigger": "This fictional case concerns borrowed funds used for several purposes.",
+      "principle": "The example separates loan security from the actual use of proceeds. Improvements, debt payoffs and personal transfers need a clear payment trail.",
+      "example": "A fictional rental refinance pays off debt, funds repairs and sends remaining proceeds to the owner's investment account.",
+      "checks": [
+        "Payoff source uncertain",
+        "Repair payment mixed",
+        "Personal transfer omitted",
+        "Account bridge incomplete",
+        "Interest statement unmatched",
+        "Debt-use allocation absent",
+        "Prior loan history missing",
+        "Preparer conclusion unresolved",
+        "Future tracing control absent"
+      ],
+      "tag": "financing"
+    },
+    {
+      "title": "Illustrative rental sale reconciliation",
+      "trigger": "This fictional case concerns a sale after improvements and depreciation changes.",
+      "principle": "The example separates sale proceeds, debt payoff, selling costs and asset basis history. The owner's net cash at closing is not the same as taxable gain.",
+      "example": "A fictional investor sells a furnished rental after replacing appliances and implementing an earlier study.",
+      "checks": [
+        "Original basis absent",
+        "Depreciation schedule incomplete",
+        "Replacement history missing",
+        "Furniture allocation unclear",
+        "Selling cost duplicated",
+        "Mortgage payoff confused with basis",
+        "Report revisions lost",
+        "Recapture review unfinished",
+        "Final asset closure pending"
+      ],
+      "tag": "sale"
+    },
+    {
+      "title": "Illustrative adviser transition gaps",
+      "trigger": "This fictional case concerns a new professional inheriting incomplete records.",
+      "principle": "The example shows why prior returns alone may not explain elections, workpapers and unresolved issues. A transition file should identify what remains unknown.",
+      "example": "A fictional owner changes advisers and supplies return PDFs while shareholder basis and asset history remain with the former firm.",
+      "checks": [
+        "Filed year omitted",
+        "Election statement unavailable",
+        "Basis rollforward missing",
+        "Asset schedule incomplete",
+        "Notice response unknown",
+        "Carryforward unmatched",
+        "Old adviser explanation absent",
+        "New scope unclear",
+        "Missing-record owner unassigned"
+      ],
+      "tag": "records"
+    },
+    {
+      "title": "Illustrative tax proposal comparison",
+      "trigger": "This fictional case concerns two packages that use similar marketing language.",
+      "principle": "The example compares deliverables, responsibilities and total costs without creating a provider ranking. It does not claim that either proposal produced a real client result.",
+      "example": "A fictional buyer compares a planning-only fee with a package including limited return preparation and ongoing reviews.",
+      "checks": [
+        "Deliverable wording inconsistent",
+        "Entity count unstated",
+        "Preparation assumed included",
+        "Implementation owner missing",
+        "Recurring fee overlooked",
+        "Cancellation terms ignored",
+        "Projection baseline unclear",
+        "Credentials unverified",
+        "Signed scope not reconciled"
+      ],
+      "tag": "scope"
+    }
+  ]
+}
