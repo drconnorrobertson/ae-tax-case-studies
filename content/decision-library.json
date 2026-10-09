@@ -1,0 +1,233 @@
+{
+  "key": "scenarios",
+  "repo": "ae-tax-case-studies",
+  "domain": "aetaxadvisorscasestudies.com",
+  "target": 200,
+  "route": "scenario-lab",
+  "title": "Illustrative Tax Scenario Evidence Lab",
+  "contexts": [
+    [
+      "S corporation readiness",
+      "An illustrative business owner is considering a change in tax classification while the operating model is changing.",
+      "ownership records; current profit; payroll readiness; owner duties; state questions",
+      "The business has stable sales but the owner has not documented duties or recurring administration costs.",
+      "A modeled advantage is a starting question, not evidence that the election is appropriate."
+    ],
+    [
+      "Owner reimbursement review",
+      "An illustrative owner has personally paid costs described as business-related and wants a review of the reporting process.",
+      "expense receipts; business purpose; reimbursement policy; payment history; entity records",
+      "The ledger contains transfers labeled reimbursements without attached expense support.",
+      "Review the records and procedure before assigning tax treatment to the transfers."
+    ],
+    [
+      "Estimated tax update",
+      "An illustrative owner is updating a projection after income or withholding changed.",
+      "current books; payment proof; withholding; income forecast; prior projection",
+      "A large receipt changes the annual outlook after earlier payments were calculated.",
+      "Distinguish updated assumptions from a verified payment record."
+    ],
+    [
+      "Retirement funding decision",
+      "An illustrative business is considering a retirement plan while employment and compensation are changing.",
+      "employee census; wages; provider quotes; plan documents; funding calendar",
+      "The owner's desired contribution is modeled without a current employee census.",
+      "The contribution model cannot substitute for plan design and implementation review."
+    ],
+    [
+      "STR depreciation decision",
+      "An illustrative short-term rental owner is evaluating a study alongside activity and household facts.",
+      "guest stays; task records; property basis; depreciation history; study quote",
+      "The study estimate is available but the activity records are incomplete.",
+      "Keep the depreciation estimate separate from the question of current loss usability."
+    ],
+    [
+      "Long-term rental study decision",
+      "An illustrative landlord wants to compare a study with continuing the existing depreciation schedule.",
+      "acquisition records; improvement history; suspended amounts; holding period; preparer scope",
+      "The property has a large projected deduction but the owner's current income picture is missing.",
+      "The decision depends on timing, limitations and total implementation cost."
+    ],
+    [
+      "C corporation retention decision",
+      "An illustrative business owner is considering retained earnings and future personal cash needs.",
+      "operating forecast; compensation; distribution plans; capital needs; entity costs",
+      "A model compares current entity rates without a plan for later owner withdrawals.",
+      "Compare the full cash path and future assumptions with professional guidance."
+    ],
+    [
+      "Entity loan reconciliation",
+      "An illustrative owner has advanced funds to an entity and later receives payments.",
+      "agreements; bank transfers; ledger balances; repayment terms; ownership records",
+      "The ledger labels all owner transfers as loans even though the documents differ.",
+      "Reconcile the transaction history and ask the preparer to determine the treatment."
+    ],
+    [
+      "Business sale preparation",
+      "An illustrative owner is reviewing draft sale terms and the available records.",
+      "draft agreement; asset history; ownership; allocation proposal; closing costs",
+      "The proposed headline price changes while the form of the transaction remains unsettled.",
+      "The after-tax comparison requires the actual structure and source records."
+    ],
+    [
+      "Prior-year correction review",
+      "An illustrative taxpayer discovers a possible issue in returns prepared in earlier years.",
+      "filed returns; workpapers; source records; correspondence; year-by-year issue list",
+      "A new advisor sees a missing schedule but has not established what was previously reported.",
+      "Reconstruct the history before selecting a correction procedure."
+    ]
+  ],
+  "tasks": [
+    [
+      "Missing ownership evidence",
+      "Test the conclusion against an unresolved owner or reporting entity.",
+      "List the assumed owner, actual title records and agreement evidence. Mark the tax-reporting question for professional review rather than filling the gap with the most favorable taxpayer. Rebuild the comparison if the responsible entity changes.",
+      "A revised assumption list and ownership question.",
+      "The illustration silently treats legal title and tax reporting as the same.",
+      "What ownership facts must be resolved before the illustration can be applied?",
+      "assumed owner; title source; reporting entity; agreement; open ownership question"
+    ],
+    [
+      "Incomplete financial records",
+      "Distinguish a model input from verified books.",
+      "Identify the statements used, cutoff date and unresolved balances. Explain whether missing information could change the baseline or proposed result. An illustration's precision does not make an incomplete input reliable.",
+      "A supported baseline with uncertainty marked.",
+      "The example uses a precise number from provisional records.",
+      "Which balances or periods need reconciliation before modeling alternatives?",
+      "statement source; cutoff date; unresolved balance; baseline effect; verification owner"
+    ],
+    [
+      "Date ambiguity",
+      "Expose the different dates the illustration depends on.",
+      "Separate agreement, payment, transfer, completion and filing dates as relevant. Ask the professional which date controls each decision. Do not use a convenient date simply because the other records are missing.",
+      "A dated assumption map.",
+      "One date is used for several events with different evidence.",
+      "Which date facts change the applicable review and what supports them?",
+      "assumed date; event; source record; alternative date; review question"
+    ],
+    [
+      "Unverified payment",
+      "Test whether the example confuses an obligation with an actual payment.",
+      "Trace the amount, recipient, date and bank or provider evidence. Separate a planned payment from completed transfer or reported treatment. Update the illustration only after documenting what actually happened.",
+      "A payment-to-reporting bridge.",
+      "A planned payment is treated as settled evidence.",
+      "What was paid, to whom, when and how was it reported?",
+      "obligation; actual payment; recipient; payment proof; reporting status"
+    ],
+    [
+      "Missing expense detail",
+      "Identify the cost pool the example actually analyzes.",
+      "Separate purpose, payer, invoice support and cost adjustments. Ask which amounts require tax classification rather than assuming every cash outlay has the same treatment. Record missing or overlapping cost records.",
+      "A source-supported cost pool.",
+      "A single total combines unrelated spending or duplicate entries.",
+      "Which source amounts and treatment questions must be separated?",
+      "cost description; payer; invoice; adjustment; unresolved treatment"
+    ],
+    [
+      "Third-party role gap",
+      "Review what other people actually do in the fact pattern.",
+      "List operational, professional and implementation roles with the evidence supporting each. Do not assume an owner performed all work or that a provider completed every step. Identify which role matters to the question being modeled.",
+      "A role and evidence map.",
+      "The example leaves material helper or professional work unstated.",
+      "Whose work or decision responsibility changes the fact pattern?",
+      "person role; task; record source; owner involvement; review significance"
+    ],
+    [
+      "Unknown prior reporting",
+      "Test the example against the treatment already reported.",
+      "Gather earlier returns and workpapers, then compare the model with the known history. Mark missing schedules clearly. A favorable correction is not established merely because an owner lacks a copy of an earlier record.",
+      "A prior-versus-proposed treatment register.",
+      "The model assumes an earlier position without reading the return.",
+      "What was already reported and what history must be reconstructed?",
+      "tax year; filed treatment; workpaper; proposed change; history gap"
+    ],
+    [
+      "No baseline alternative",
+      "Build the comparison the headline leaves out.",
+      "Describe what happens without the proposed action, including costs and timing. Compare the same facts and period for both options. A proposed deduction does not by itself identify incremental financial benefit.",
+      "A like-for-like alternative comparison.",
+      "The headline compares a full proposed benefit with no baseline.",
+      "What is the supported alternative and which assumptions differ?",
+      "baseline action; proposed action; common period; changed input; comparison question"
+    ],
+    [
+      "Undefined implementation scope",
+      "Identify the steps required after the recommendation.",
+      "List the document, decision maker, implementation professional and follow-up evidence for each step. Distinguish educational modeling from purchased implementation. Ask which tasks need a separate scope before treating the plan as achievable.",
+      "An implementation dependency register.",
+      "The illustration assumes work outside the engagement will be completed.",
+      "Who performs each action and what conditions must be satisfied first?",
+      "recommendation; prerequisite; action owner; scope boundary; completion evidence"
+    ],
+    [
+      "Fees omitted",
+      "Add the costs necessary to execute and maintain the proposal.",
+      "Separate initial fees, recurring administration and third-party work. Use a clearly stated period for comparing options. Do not treat implementation expense as zero because the illustration focuses on one tax concept.",
+      "A cost-adjusted comparison file.",
+      "A gross modeled benefit is presented as net value.",
+      "Which initial and recurring costs affect the proposed comparison?",
+      "initial expense; recurring expense; third-party fee; comparison period; missing quote"
+    ],
+    [
+      "State treatment untested",
+      "Keep federal and state questions visible as separate inputs.",
+      "List relevant jurisdictions and the assumptions used in the model. Ask the preparer to review conformity, entity obligations or other jurisdiction-specific issues. Do not automatically apply a federal outcome to every state.",
+      "A jurisdiction assumption register.",
+      "The federal result is reused as the combined tax result.",
+      "Which state facts and calculations need independent review?",
+      "jurisdiction; federal input; state assumption; filing responsibility; review question"
+    ],
+    [
+      "Future transaction ignored",
+      "Extend the illustration to a possible sale, exit or later owner cash need.",
+      "Record the future event and the assumptions the initial model omits. Ask for a complete timing and cash comparison. Do not convert a first-year timing effect into a permanent benefit without addressing later consequences.",
+      "An initial-and-future decision map.",
+      "The headline stops before a material future event.",
+      "How does the expected future transaction change the comparison?",
+      "future event; expected timing; omitted assumption; cash need; follow-up review"
+    ]
+  ],
+  "masters": [
+    [
+      "Baseline alternative builder",
+      "Build the missing comparison beside an illustrative planning proposal.",
+      "baseline; proposed action; common assumptions; changed facts; unresolved input"
+    ],
+    [
+      "Deduction versus tax-change worksheet",
+      "Separate a stated deduction from a modeled tax effect and implementation costs.",
+      "deduction; assumed rate; gross model; costs; limitations"
+    ],
+    [
+      "Timing benefit review map",
+      "Keep initial and later effects separate in an illustrative comparison.",
+      "initial effect; later event; holding period; future assumption; review question"
+    ],
+    [
+      "Scenario evidence gate register",
+      "Record which assumptions are supported and which need review.",
+      "assumption; source; evidence status; consequence; reviewer"
+    ],
+    [
+      "Proposed implemented verified tracker",
+      "Keep planning stages distinct rather than treating a delivered model as a realized result.",
+      "recommendation; approval; implementation; reported treatment; verification"
+    ],
+    [
+      "Sensitivity question builder",
+      "Ask how a changed assumption would alter an illustrative comparison.",
+      "input; baseline value; alternative; affected decision; review question"
+    ],
+    [
+      "Scenario to consultation brief",
+      "Convert an illustrative example into an individualized review question.",
+      "decision; actual facts; records; deadline; engagement question"
+    ]
+  ],
+  "service": "https://www.aetaxadvisors.com/discovery/",
+  "sources": [
+    "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+  ],
+  "date": "2026-10-09",
+  "publisher": "AE Tax Advisors"
+}
