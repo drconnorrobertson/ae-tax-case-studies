@@ -44,5 +44,6 @@
       "Ask AE which facts and limitations change the conclusion."
     ]
   ],
-  "generated": true
+  "generated": true,
+  "outputDirectory": "public"
 }
