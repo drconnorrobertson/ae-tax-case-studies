@@ -1,0 +1,48 @@
+{
+  "repo": "ae-tax-case-studies",
+  "domain": "aetaxadvisorscasestudies.com",
+  "label": "Planning Scenarios & Case Studies",
+  "eyebrow": "Understand the reasoning behind the plan",
+  "headline": "Explore the decisions. Examine the assumptions.",
+  "intro": "Compare planning situations across business ownership and real estate. Educational scenarios are illustrative; verified published client cases remain on AE Tax Advisors\u2019 main site, with their facts and limitations.",
+  "service": "/case-studies/",
+  "role": "Scenario analysis, with published cases clearly distinguished",
+  "topics": [
+    [
+      "Published client cases",
+      "https://www.aetaxadvisors.com/case-studies/",
+      "Read AE\u2019s published cases in their original context."
+    ],
+    [
+      "Scenario preparation files",
+      "/scenario-lab/",
+      "Organize the facts behind an illustrative planning question."
+    ],
+    [
+      "Browse this library",
+      "/library/",
+      "Find scenario analysis and related preparation resources."
+    ]
+  ],
+  "prepare": [
+    "The decision you need to make and its expected timing",
+    "Current facts that differ from the example",
+    "The proposed treatment and a credible alternative",
+    "The implementation owner and unresolved dependencies"
+  ],
+  "steps": [
+    [
+      "Identify the trigger",
+      "Begin with the actual decision facing the owner."
+    ],
+    [
+      "Challenge the assumptions",
+      "Distinguish an illustrative model from evidence about your own circumstances."
+    ],
+    [
+      "Discuss applicability",
+      "Ask AE which facts and limitations change the conclusion."
+    ]
+  ],
+  "generated": true
+}
