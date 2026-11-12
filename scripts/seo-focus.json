@@ -1,0 +1,22 @@
+{
+  "title": "Tax Planning Scenarios & Worked Examples | AE Tax",
+  "description": "Explore illustrative tax planning scenarios, assumptions and worked examples. Prepare questions for an adviser; hypothetical examples are not documented client results.",
+  "heading": "Start with the assumptions behind the example",
+  "intro": "These scenarios are learning exercises. Compare the facts, calculation method and unresolved questions before applying an example to your situation.",
+  "links": [
+    {
+      "href": "/scenarios/how-to-read-these-scenarios/",
+      "label": "How to read a scenario"
+    },
+    {
+      "href": "/scenarios/how-numbers-are-built/",
+      "label": "Inspect the calculation approach"
+    },
+    {
+      "href": "/resources/scenario-assumption-review-worksheet/",
+      "label": "Review the assumptions"
+    }
+  ],
+  "buildCommand": "node topical-depth-build.cjs && node brand-build.cjs && node scripts/brand-check.mjs public && node scripts/buyer-intent-release.cjs public && node scripts/practical-homepage.cjs public && node scripts/brand-check.mjs public",
+  "outputDirectory": "public"
+}
